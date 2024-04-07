@@ -1,0 +1,773 @@
+2023-09-20 23:06:09.888 INFO [restartedMain:c.a.n.c.u.ParamUtil] [settings] [req-serv] nacos-server port:8848
+2023-09-20 23:06:09.889 INFO [restartedMain:c.a.n.c.u.ParamUtil] [settings] [http-client] connect timeout:1000
+2023-09-20 23:06:09.890 INFO [restartedMain:c.a.n.c.u.ParamUtil] PER_TASK_CONFIG_SIZE: 3000.0
+2023-09-20 23:06:09.906 INFO [restartedMain:c.a.n.c.a.r.i.CredentialWatcher] null No credential found
+2023-09-20 23:06:09.909 INFO [restartedMain:c.a.n.c.c.i.LocalConfigInfoProcessor] LOCAL_SNAPSHOT_PATH:myhome\nacos\config
+2023-09-20 23:06:11.703 INFO [com.alibaba.nacos.client.remote.worker:c.a.n.c.c.i.ClientWorker] [54a3e5ec-48b4-4b66-8f21-4a7c436603d3_config-0] Connected,notify listen context...
+2023-09-20 23:06:11.727 INFO [restartedMain:c.a.n.c.c.i.Limiter] limitTime:5.0
+2023-09-20 23:06:16.988 INFO [restartedMain:c.a.n.c.c.i.CacheData] nacos.cache.data.init.snapshot = true 
+2023-09-20 23:06:16.988 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] dubbo-springboot-demo-provider.migration+DUBBO_SERVICEDISCOVERY_MIGRATION
+2023-09-20 23:06:16.994 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=dubbo-springboot-demo-provider.migration, group=DUBBO_SERVICEDISCOVERY_MIGRATION, cnt=1
+2023-09-20 23:06:17.036 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] dubbo-springboot-demo-provider.configurators+dubbo
+2023-09-20 23:06:17.036 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=dubbo-springboot-demo-provider.configurators, group=dubbo, cnt=1
+2023-09-20 23:06:17.055 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.provider.DemoService::.condition-router+dubbo
+2023-09-20 23:06:17.055 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.provider.DemoService::.condition-router, group=dubbo, cnt=1
+2023-09-20 23:06:17.062 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] dubbo-springboot-demo-provider.condition-router+dubbo
+2023-09-20 23:06:17.062 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=dubbo-springboot-demo-provider.condition-router, group=dubbo, cnt=1
+2023-09-20 23:06:17.108 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.provider.DemoService::.configurators+dubbo
+2023-09-20 23:06:17.109 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.provider.DemoService::.configurators, group=dubbo, cnt=1
+2023-09-20 23:06:17.319 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.provider.DemoService+mapping
+2023-09-20 23:06:17.320 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.provider.DemoService, group=mapping, cnt=1
+2023-09-20 23:06:17.430 INFO [com.alibaba.nacos.client.remote.worker:c.a.n.c.c.i.ClientWorker] [508266dc-c815-420b-83b0-fd970ccaecfb_config-0] Connected,notify listen context...
+2023-09-20 23:06:17.523 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] org.apache.dubbo.metadata.MetadataService:1.0.0:dubbo-springboot-demo-provider.configurators+dubbo
+2023-09-20 23:06:17.524 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=org.apache.dubbo.metadata.MetadataService:1.0.0:dubbo-springboot-demo-provider.configurators, group=dubbo, cnt=1
+2023-09-20 23:06:18.132 INFO [restartedMain:c.a.n.c.a.r.i.CredentialWatcher] [null] CredentialWatcher is stopped
+2023-09-20 23:06:18.132 INFO [restartedMain:c.a.n.c.a.r.i.CredentialService] [null] CredentialService is freed
+2023-09-20 23:06:19.910 INFO [com.alibaba.nacos.client.Worker:c.a.n.c.a.r.i.CredentialWatcher] null No credential found
+2023-09-20 23:06:20.203 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] com.alibaba.nacos.client.config.impl.ClientWorker do shutdown begin
+2023-09-20 23:06:20.203 INFO [restartedMain:c.a.n.c.a.r.i.CredentialWatcher] [null] CredentialWatcher is stopped
+2023-09-20 23:06:20.203 INFO [restartedMain:c.a.n.c.a.r.i.CredentialService] [null] CredentialService is freed
+2023-09-20 23:06:20.203 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] Trying to shutdown transport client com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient@703651b6
+2023-09-20 23:06:20.203 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] Trying to shutdown rpc client 54a3e5ec-48b4-4b66-8f21-4a7c436603d3_config-0
+2023-09-20 23:06:20.204 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] Remove rpc client 54a3e5ec-48b4-4b66-8f21-4a7c436603d3_config-0
+2023-09-20 23:06:20.204 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] Shutdown executor java.util.concurrent.ScheduledThreadPoolExecutor@81ff0b3[Running, pool size = 5, active threads = 1, queued tasks = 1, completed tasks = 3]
+2023-09-20 23:06:20.205 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] com.alibaba.nacos.client.config.impl.ClientWorker do shutdown stop
+2023-09-20 23:09:27.966 INFO [restartedMain:c.a.n.c.u.ParamUtil] [settings] [req-serv] nacos-server port:8848
+2023-09-20 23:09:27.967 INFO [restartedMain:c.a.n.c.u.ParamUtil] [settings] [http-client] connect timeout:1000
+2023-09-20 23:09:27.968 INFO [restartedMain:c.a.n.c.u.ParamUtil] PER_TASK_CONFIG_SIZE: 3000.0
+2023-09-20 23:09:27.986 INFO [restartedMain:c.a.n.c.a.r.i.CredentialWatcher] null No credential found
+2023-09-20 23:09:27.989 INFO [restartedMain:c.a.n.c.c.i.LocalConfigInfoProcessor] LOCAL_SNAPSHOT_PATH:myhome\nacos\config
+2023-09-20 23:09:29.627 INFO [com.alibaba.nacos.client.remote.worker:c.a.n.c.c.i.ClientWorker] [3cde74a3-2f32-47ef-96f1-76e0cd826262_config-0] Connected,notify listen context...
+2023-09-20 23:09:29.653 INFO [restartedMain:c.a.n.c.c.i.Limiter] limitTime:5.0
+2023-09-20 23:09:32.836 INFO [restartedMain:c.a.n.c.c.i.CacheData] nacos.cache.data.init.snapshot = true 
+2023-09-20 23:09:32.837 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] dubbo-springboot-demo-provider.migration+DUBBO_SERVICEDISCOVERY_MIGRATION
+2023-09-20 23:09:32.843 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=dubbo-springboot-demo-provider.migration, group=DUBBO_SERVICEDISCOVERY_MIGRATION, cnt=1
+2023-09-20 23:09:32.881 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] dubbo-springboot-demo-provider.configurators+dubbo
+2023-09-20 23:09:32.881 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=dubbo-springboot-demo-provider.configurators, group=dubbo, cnt=1
+2023-09-20 23:09:32.896 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.provider.DemoService::.condition-router+dubbo
+2023-09-20 23:09:32.896 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.provider.DemoService::.condition-router, group=dubbo, cnt=1
+2023-09-20 23:09:32.901 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] dubbo-springboot-demo-provider.condition-router+dubbo
+2023-09-20 23:09:32.901 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=dubbo-springboot-demo-provider.condition-router, group=dubbo, cnt=1
+2023-09-20 23:09:33.037 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] dubbo-springboot-demo-provider.MESHAPPRULE+dubbo
+2023-09-20 23:09:33.037 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=dubbo-springboot-demo-provider.MESHAPPRULE, group=dubbo, cnt=1
+2023-09-20 23:09:33.038 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] dubbo-springboot-demo-provider.tag-router+dubbo
+2023-09-20 23:09:33.038 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=dubbo-springboot-demo-provider.tag-router, group=dubbo, cnt=1
+2023-09-20 23:09:33.046 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.provider.DemoService::.configurators+dubbo
+2023-09-20 23:09:33.046 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.provider.DemoService::.configurators, group=dubbo, cnt=1
+2023-09-20 23:09:33.253 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.provider.DemoService+mapping
+2023-09-20 23:09:33.253 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.provider.DemoService, group=mapping, cnt=1
+2023-09-20 23:09:33.361 INFO [com.alibaba.nacos.client.remote.worker:c.a.n.c.c.i.ClientWorker] [11e5b69e-6ac3-4605-ba00-4cb0f7b658b8_config-0] Connected,notify listen context...
+2023-09-20 23:09:33.370 INFO [restartedMain:c.a.n.c.c.u.JvmUtil] isMultiInstance:false
+2023-09-20 23:09:33.568 INFO [com.alibaba.nacos.client.Worker:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [notify-listener] time cost=0ms in ClientWorker, dataId=com.wty.project.provider.DemoService, group=mapping, md5=2ae926d997a913eef80e928555b6660d, listener=org.apache.dubbo.metadata.store.nacos.NacosMetadataReport$NacosConfigListener@387a4d25
+2023-09-20 23:09:33.568 INFO [nacos.client.cachedata.internal.notifier:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [notify-context] dataId=com.wty.project.provider.DemoService, group=mapping, md5=2ae926d997a913eef80e928555b6660d
+2023-09-20 23:09:33.571 INFO [nacos.client.cachedata.internal.notifier:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [notify-ok] dataId=com.wty.project.provider.DemoService, group=mapping, md5=2ae926d997a913eef80e928555b6660d, listener=org.apache.dubbo.metadata.store.nacos.NacosMetadataReport$NacosConfigListener@387a4d25 ,cost=3 millis.
+2023-09-20 23:09:33.718 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] org.apache.dubbo.metadata.MetadataService:1.0.0:dubbo-springboot-demo-provider.configurators+dubbo
+2023-09-20 23:09:33.718 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=org.apache.dubbo.metadata.MetadataService:1.0.0:dubbo-springboot-demo-provider.configurators, group=dubbo, cnt=1
+2023-09-20 23:09:42.981 INFO [Thread-2:c.a.n.c.a.r.i.CredentialWatcher] [null] CredentialWatcher is stopped
+2023-09-20 23:09:42.981 INFO [Thread-2:c.a.n.c.a.r.i.CredentialService] [null] CredentialService is freed
+2023-09-20 23:09:42.992 INFO [com.alibaba.nacos.client.Worker:c.a.n.c.a.r.i.CredentialWatcher] null No credential found
+2023-09-20 23:09:45.593 INFO [Thread-2:c.a.n.c.c.i.ClientWorker] com.alibaba.nacos.client.config.impl.ClientWorker do shutdown begin
+2023-09-20 23:09:45.594 INFO [Thread-2:c.a.n.c.a.r.i.CredentialWatcher] [null] CredentialWatcher is stopped
+2023-09-20 23:09:45.766 INFO [Thread-2:c.a.n.c.a.r.i.CredentialService] [null] CredentialService is freed
+2023-09-20 23:09:45.766 INFO [Thread-2:c.a.n.c.c.i.ClientWorker] Trying to shutdown transport client com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient@6af1815a
+2023-09-20 23:09:45.766 INFO [Thread-2:c.a.n.c.c.i.ClientWorker] Trying to shutdown rpc client 3cde74a3-2f32-47ef-96f1-76e0cd826262_config-0
+2023-09-20 23:09:45.768 INFO [Thread-2:c.a.n.c.c.i.ClientWorker] Remove rpc client 3cde74a3-2f32-47ef-96f1-76e0cd826262_config-0
+2023-09-20 23:09:45.770 INFO [Thread-2:c.a.n.c.c.i.ClientWorker] Shutdown executor java.util.concurrent.ScheduledThreadPoolExecutor@2250158a[Running, pool size = 6, active threads = 1, queued tasks = 1, completed tasks = 4]
+2023-09-20 23:09:45.770 INFO [Thread-2:c.a.n.c.c.i.ClientWorker] com.alibaba.nacos.client.config.impl.ClientWorker do shutdown stop
+2023-09-20 23:15:51.346 INFO [restartedMain:c.a.n.c.u.ParamUtil] [settings] [req-serv] nacos-server port:8848
+2023-09-20 23:15:51.347 INFO [restartedMain:c.a.n.c.u.ParamUtil] [settings] [http-client] connect timeout:1000
+2023-09-20 23:15:51.348 INFO [restartedMain:c.a.n.c.u.ParamUtil] PER_TASK_CONFIG_SIZE: 3000.0
+2023-09-20 23:15:51.368 INFO [restartedMain:c.a.n.c.a.r.i.CredentialWatcher] null No credential found
+2023-09-20 23:15:51.373 INFO [restartedMain:c.a.n.c.c.i.LocalConfigInfoProcessor] LOCAL_SNAPSHOT_PATH:myhome\nacos\config
+2023-09-20 23:15:53.444 INFO [com.alibaba.nacos.client.remote.worker:c.a.n.c.c.i.ClientWorker] [bd939a03-e025-4ecf-86f4-6cf925901915_config-0] Connected,notify listen context...
+2023-09-20 23:15:53.486 INFO [restartedMain:c.a.n.c.c.i.Limiter] limitTime:5.0
+2023-09-20 23:15:57.140 INFO [restartedMain:c.a.n.c.c.i.CacheData] nacos.cache.data.init.snapshot = true 
+2023-09-20 23:15:57.140 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] dubbo-springboot-demo-provider.migration+DUBBO_SERVICEDISCOVERY_MIGRATION
+2023-09-20 23:15:57.146 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=dubbo-springboot-demo-provider.migration, group=DUBBO_SERVICEDISCOVERY_MIGRATION, cnt=1
+2023-09-20 23:15:57.195 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] dubbo-springboot-demo-provider.configurators+dubbo
+2023-09-20 23:15:57.195 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=dubbo-springboot-demo-provider.configurators, group=dubbo, cnt=1
+2023-09-20 23:15:57.214 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.provider.DemoService::.condition-router+dubbo
+2023-09-20 23:15:57.214 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.provider.DemoService::.condition-router, group=dubbo, cnt=1
+2023-09-20 23:15:57.220 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] dubbo-springboot-demo-provider.condition-router+dubbo
+2023-09-20 23:15:57.220 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=dubbo-springboot-demo-provider.condition-router, group=dubbo, cnt=1
+2023-09-20 23:15:57.398 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] dubbo-springboot-demo-provider.MESHAPPRULE+dubbo
+2023-09-20 23:15:57.398 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=dubbo-springboot-demo-provider.MESHAPPRULE, group=dubbo, cnt=1
+2023-09-20 23:15:57.399 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] dubbo-springboot-demo-provider.tag-router+dubbo
+2023-09-20 23:15:57.399 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=dubbo-springboot-demo-provider.tag-router, group=dubbo, cnt=1
+2023-09-20 23:15:57.408 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.provider.DemoService::.configurators+dubbo
+2023-09-20 23:15:57.408 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.provider.DemoService::.configurators, group=dubbo, cnt=1
+2023-09-20 23:15:57.619 INFO [restartedMain:c.a.n.c.c.u.JvmUtil] isMultiInstance:false
+2023-09-20 23:15:57.619 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.provider.DemoService+mapping
+2023-09-20 23:15:57.619 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.provider.DemoService, group=mapping, cnt=1
+2023-09-20 23:15:57.730 INFO [com.alibaba.nacos.client.remote.worker:c.a.n.c.c.i.ClientWorker] [ae3cf039-c5d0-47ee-907c-6b4a59120731_config-0] Connected,notify listen context...
+2023-09-20 23:15:58.013 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] org.apache.dubbo.metadata.MetadataService:1.0.0:dubbo-springboot-demo-provider.configurators+dubbo
+2023-09-20 23:15:58.014 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=org.apache.dubbo.metadata.MetadataService:1.0.0:dubbo-springboot-demo-provider.configurators, group=dubbo, cnt=1
+2023-09-21 06:58:29.464 INFO [restartedMain:c.a.n.c.u.ParamUtil] [settings] [req-serv] nacos-server port:8848
+2023-09-21 06:58:29.465 INFO [restartedMain:c.a.n.c.u.ParamUtil] [settings] [http-client] connect timeout:1000
+2023-09-21 06:58:29.467 INFO [restartedMain:c.a.n.c.u.ParamUtil] PER_TASK_CONFIG_SIZE: 3000.0
+2023-09-21 06:58:29.484 INFO [restartedMain:c.a.n.c.a.r.i.CredentialWatcher] null No credential found
+2023-09-21 06:58:29.487 INFO [restartedMain:c.a.n.c.c.i.LocalConfigInfoProcessor] LOCAL_SNAPSHOT_PATH:myhome\nacos\config
+2023-09-21 06:58:31.118 INFO [com.alibaba.nacos.client.remote.worker:c.a.n.c.c.i.ClientWorker] [028ca5fb-44ae-4dfa-8a28-b3faeddffcd4_config-0] Connected,notify listen context...
+2023-09-21 06:58:31.141 INFO [restartedMain:c.a.n.c.c.i.Limiter] limitTime:5.0
+2023-09-21 06:58:34.380 INFO [restartedMain:c.a.n.c.c.i.CacheData] nacos.cache.data.init.snapshot = true 
+2023-09-21 06:58:34.381 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] dubbo-springboot-demo-provider.migration+DUBBO_SERVICEDISCOVERY_MIGRATION
+2023-09-21 06:58:34.388 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=dubbo-springboot-demo-provider.migration, group=DUBBO_SERVICEDISCOVERY_MIGRATION, cnt=1
+2023-09-21 06:58:34.441 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] dubbo-springboot-demo-provider.configurators+dubbo
+2023-09-21 06:58:34.441 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=dubbo-springboot-demo-provider.configurators, group=dubbo, cnt=1
+2023-09-21 06:58:34.459 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.provider.DemoService::.condition-router+dubbo
+2023-09-21 06:58:34.459 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.provider.DemoService::.condition-router, group=dubbo, cnt=1
+2023-09-21 06:58:34.464 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] dubbo-springboot-demo-provider.condition-router+dubbo
+2023-09-21 06:58:34.464 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=dubbo-springboot-demo-provider.condition-router, group=dubbo, cnt=1
+2023-09-21 06:58:34.580 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] dubbo-springboot-demo-provider.MESHAPPRULE+dubbo
+2023-09-21 06:58:34.580 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=dubbo-springboot-demo-provider.MESHAPPRULE, group=dubbo, cnt=1
+2023-09-21 06:58:34.581 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] dubbo-springboot-demo-provider.tag-router+dubbo
+2023-09-21 06:58:34.581 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=dubbo-springboot-demo-provider.tag-router, group=dubbo, cnt=1
+2023-09-21 06:58:34.590 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.provider.DemoService::.configurators+dubbo
+2023-09-21 06:58:34.590 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.provider.DemoService::.configurators, group=dubbo, cnt=1
+2023-09-21 06:58:34.800 INFO [restartedMain:c.a.n.c.c.u.JvmUtil] isMultiInstance:false
+2023-09-21 06:58:34.801 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.provider.DemoService+mapping
+2023-09-21 06:58:34.801 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.provider.DemoService, group=mapping, cnt=1
+2023-09-21 06:58:34.911 INFO [com.alibaba.nacos.client.remote.worker:c.a.n.c.c.i.ClientWorker] [98ea170b-20c6-4534-afe3-6199e3f70f2e_config-0] Connected,notify listen context...
+2023-09-21 06:58:35.299 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] org.apache.dubbo.metadata.MetadataService:1.0.0:dubbo-springboot-demo-provider.configurators+dubbo
+2023-09-21 06:58:35.299 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=org.apache.dubbo.metadata.MetadataService:1.0.0:dubbo-springboot-demo-provider.configurators, group=dubbo, cnt=1
+2023-09-21 07:36:35.234 INFO [Thread-2:c.a.n.c.a.r.i.CredentialWatcher] [null] CredentialWatcher is stopped
+2023-09-21 07:36:35.235 INFO [Thread-2:c.a.n.c.a.r.i.CredentialService] [null] CredentialService is freed
+2023-09-21 07:36:36.691 INFO [com.alibaba.nacos.client.Worker:c.a.n.c.a.r.i.CredentialWatcher] null No credential found
+2023-09-21 07:36:37.265 INFO [Thread-2:c.a.n.c.c.i.ClientWorker] com.alibaba.nacos.client.config.impl.ClientWorker do shutdown begin
+2023-09-21 07:36:37.265 INFO [Thread-2:c.a.n.c.a.r.i.CredentialWatcher] [null] CredentialWatcher is stopped
+2023-09-21 07:36:37.266 INFO [Thread-2:c.a.n.c.a.r.i.CredentialService] [null] CredentialService is freed
+2023-09-21 07:36:37.266 INFO [Thread-2:c.a.n.c.c.i.ClientWorker] Trying to shutdown transport client com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient@381a9ec3
+2023-09-21 07:36:37.266 INFO [Thread-2:c.a.n.c.c.i.ClientWorker] Trying to shutdown rpc client 028ca5fb-44ae-4dfa-8a28-b3faeddffcd4_config-0
+2023-09-21 07:36:37.266 INFO [Thread-2:c.a.n.c.c.i.ClientWorker] Remove rpc client 028ca5fb-44ae-4dfa-8a28-b3faeddffcd4_config-0
+2023-09-21 07:36:37.266 INFO [Thread-2:c.a.n.c.c.i.ClientWorker] Shutdown executor java.util.concurrent.ScheduledThreadPoolExecutor@13a2962[Running, pool size = 16, active threads = 1, queued tasks = 1, completed tasks = 458]
+2023-09-21 07:36:37.267 INFO [Thread-2:c.a.n.c.c.i.ClientWorker] com.alibaba.nacos.client.config.impl.ClientWorker do shutdown stop
+2023-09-21 07:37:27.803 INFO [restartedMain:c.a.n.c.u.ParamUtil] [settings] [req-serv] nacos-server port:8848
+2023-09-21 07:37:27.803 INFO [restartedMain:c.a.n.c.u.ParamUtil] [settings] [http-client] connect timeout:1000
+2023-09-21 07:37:27.804 INFO [restartedMain:c.a.n.c.u.ParamUtil] PER_TASK_CONFIG_SIZE: 3000.0
+2023-09-21 07:37:27.818 INFO [restartedMain:c.a.n.c.a.r.i.CredentialWatcher] null No credential found
+2023-09-21 07:37:27.821 INFO [restartedMain:c.a.n.c.c.i.LocalConfigInfoProcessor] LOCAL_SNAPSHOT_PATH:myhome\nacos\config
+2023-09-21 07:37:29.564 INFO [com.alibaba.nacos.client.remote.worker:c.a.n.c.c.i.ClientWorker] [c4a053ad-2048-44f3-a468-3ead27f93ed7_config-0] Connected,notify listen context...
+2023-09-21 07:37:29.594 INFO [restartedMain:c.a.n.c.c.i.Limiter] limitTime:5.0
+2023-09-21 07:37:33.037 INFO [restartedMain:c.a.n.c.c.i.CacheData] nacos.cache.data.init.snapshot = true 
+2023-09-21 07:37:33.037 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] dubbo-springboot-demo-provider.migration+DUBBO_SERVICEDISCOVERY_MIGRATION
+2023-09-21 07:37:33.043 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=dubbo-springboot-demo-provider.migration, group=DUBBO_SERVICEDISCOVERY_MIGRATION, cnt=1
+2023-09-21 07:37:33.078 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] dubbo-springboot-demo-provider.configurators+dubbo
+2023-09-21 07:37:33.078 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=dubbo-springboot-demo-provider.configurators, group=dubbo, cnt=1
+2023-09-21 07:37:33.093 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.provider.DemoService::.condition-router+dubbo
+2023-09-21 07:37:33.093 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.provider.DemoService::.condition-router, group=dubbo, cnt=1
+2023-09-21 07:37:33.098 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] dubbo-springboot-demo-provider.condition-router+dubbo
+2023-09-21 07:37:33.098 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=dubbo-springboot-demo-provider.condition-router, group=dubbo, cnt=1
+2023-09-21 07:37:33.220 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] dubbo-springboot-demo-provider.MESHAPPRULE+dubbo
+2023-09-21 07:37:33.220 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=dubbo-springboot-demo-provider.MESHAPPRULE, group=dubbo, cnt=1
+2023-09-21 07:37:33.221 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] dubbo-springboot-demo-provider.tag-router+dubbo
+2023-09-21 07:37:33.221 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=dubbo-springboot-demo-provider.tag-router, group=dubbo, cnt=1
+2023-09-21 07:37:33.227 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.provider.DemoService::.configurators+dubbo
+2023-09-21 07:37:33.227 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.provider.DemoService::.configurators, group=dubbo, cnt=1
+2023-09-21 07:37:33.436 INFO [Dubbo-framework-mapping-refreshing-scheduler-thread-1:c.a.n.c.c.u.JvmUtil] isMultiInstance:false
+2023-09-21 07:37:33.436 INFO [Dubbo-framework-mapping-refreshing-scheduler-thread-1:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.provider.DemoService+mapping
+2023-09-21 07:37:33.436 INFO [Dubbo-framework-mapping-refreshing-scheduler-thread-1:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.provider.DemoService, group=mapping, cnt=1
+2023-09-21 07:37:33.514 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] org.apache.dubbo.metadata.MetadataService:1.0.0:dubbo-springboot-demo-provider.configurators+dubbo
+2023-09-21 07:37:33.514 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=org.apache.dubbo.metadata.MetadataService:1.0.0:dubbo-springboot-demo-provider.configurators, group=dubbo, cnt=1
+2023-09-21 07:37:33.544 INFO [com.alibaba.nacos.client.remote.worker:c.a.n.c.c.i.ClientWorker] [9da7ed48-d76a-4024-b354-35f5d239d678_config-0] Connected,notify listen context...
+2023-09-21 13:20:03.800 INFO [restartedMain:c.a.n.c.u.ParamUtil] [settings] [req-serv] nacos-server port:8848
+2023-09-21 13:20:03.801 INFO [restartedMain:c.a.n.c.u.ParamUtil] [settings] [http-client] connect timeout:1000
+2023-09-21 13:20:03.802 INFO [restartedMain:c.a.n.c.u.ParamUtil] PER_TASK_CONFIG_SIZE: 3000.0
+2023-09-21 13:20:03.818 INFO [restartedMain:c.a.n.c.a.r.i.CredentialWatcher] null No credential found
+2023-09-21 13:20:03.821 INFO [restartedMain:c.a.n.c.c.i.LocalConfigInfoProcessor] LOCAL_SNAPSHOT_PATH:myhome\nacos\config
+2023-09-21 13:20:05.521 INFO [com.alibaba.nacos.client.remote.worker:c.a.n.c.c.i.ClientWorker] [9e4ddbce-6752-4e49-befd-963fae13babf_config-0] Connected,notify listen context...
+2023-09-21 13:20:05.546 INFO [restartedMain:c.a.n.c.c.i.Limiter] limitTime:5.0
+2023-09-21 13:20:08.808 INFO [restartedMain:c.a.n.c.c.i.CacheData] nacos.cache.data.init.snapshot = true 
+2023-09-21 13:20:08.809 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] dubbo-springboot-demo-provider.migration+DUBBO_SERVICEDISCOVERY_MIGRATION
+2023-09-21 13:20:08.815 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=dubbo-springboot-demo-provider.migration, group=DUBBO_SERVICEDISCOVERY_MIGRATION, cnt=1
+2023-09-21 13:20:08.854 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] dubbo-springboot-demo-provider.configurators+dubbo
+2023-09-21 13:20:08.854 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=dubbo-springboot-demo-provider.configurators, group=dubbo, cnt=1
+2023-09-21 13:20:08.870 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.provider.DemoService::.condition-router+dubbo
+2023-09-21 13:20:08.870 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.provider.DemoService::.condition-router, group=dubbo, cnt=1
+2023-09-21 13:20:08.875 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] dubbo-springboot-demo-provider.condition-router+dubbo
+2023-09-21 13:20:08.875 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=dubbo-springboot-demo-provider.condition-router, group=dubbo, cnt=1
+2023-09-21 13:20:08.997 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] dubbo-springboot-demo-provider.MESHAPPRULE+dubbo
+2023-09-21 13:20:08.997 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=dubbo-springboot-demo-provider.MESHAPPRULE, group=dubbo, cnt=1
+2023-09-21 13:20:08.998 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] dubbo-springboot-demo-provider.tag-router+dubbo
+2023-09-21 13:20:08.998 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=dubbo-springboot-demo-provider.tag-router, group=dubbo, cnt=1
+2023-09-21 13:20:09.004 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.provider.DemoService::.configurators+dubbo
+2023-09-21 13:20:09.005 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.provider.DemoService::.configurators, group=dubbo, cnt=1
+2023-09-21 13:20:09.214 INFO [Dubbo-framework-mapping-refreshing-scheduler-thread-1:c.a.n.c.c.u.JvmUtil] isMultiInstance:false
+2023-09-21 13:20:09.214 INFO [Dubbo-framework-mapping-refreshing-scheduler-thread-1:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.provider.DemoService+mapping
+2023-09-21 13:20:09.214 INFO [Dubbo-framework-mapping-refreshing-scheduler-thread-1:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.provider.DemoService, group=mapping, cnt=1
+2023-09-21 13:20:09.304 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] org.apache.dubbo.metadata.MetadataService:1.0.0:dubbo-springboot-demo-provider.configurators+dubbo
+2023-09-21 13:20:09.305 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=org.apache.dubbo.metadata.MetadataService:1.0.0:dubbo-springboot-demo-provider.configurators, group=dubbo, cnt=1
+2023-09-21 13:20:09.323 INFO [com.alibaba.nacos.client.remote.worker:c.a.n.c.c.i.ClientWorker] [602a8293-9ddf-451e-a7f5-fe9f40c4cfa9_config-0] Connected,notify listen context...
+2023-09-21 14:35:04.659 INFO [restartedMain:c.a.n.c.u.ParamUtil] [settings] [req-serv] nacos-server port:8848
+2023-09-21 14:35:04.660 INFO [restartedMain:c.a.n.c.u.ParamUtil] [settings] [http-client] connect timeout:1000
+2023-09-21 14:35:04.661 INFO [restartedMain:c.a.n.c.u.ParamUtil] PER_TASK_CONFIG_SIZE: 3000.0
+2023-09-21 14:35:04.675 INFO [restartedMain:c.a.n.c.a.r.i.CredentialWatcher] null No credential found
+2023-09-21 14:35:04.678 INFO [restartedMain:c.a.n.c.c.i.LocalConfigInfoProcessor] LOCAL_SNAPSHOT_PATH:myhome\nacos\config
+2023-09-21 14:35:06.277 INFO [com.alibaba.nacos.client.remote.worker:c.a.n.c.c.i.ClientWorker] [d3b3c594-ef89-4fa7-9be3-3b055db03777_config-0] Connected,notify listen context...
+2023-09-21 14:35:06.303 INFO [restartedMain:c.a.n.c.c.i.Limiter] limitTime:5.0
+2023-09-21 14:35:09.657 INFO [restartedMain:c.a.n.c.c.i.CacheData] nacos.cache.data.init.snapshot = true 
+2023-09-21 14:35:09.658 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] dubbo-springboot-demo-provider.migration+DUBBO_SERVICEDISCOVERY_MIGRATION
+2023-09-21 14:35:09.664 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=dubbo-springboot-demo-provider.migration, group=DUBBO_SERVICEDISCOVERY_MIGRATION, cnt=1
+2023-09-21 14:35:09.700 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] dubbo-springboot-demo-provider.configurators+dubbo
+2023-09-21 14:35:09.700 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=dubbo-springboot-demo-provider.configurators, group=dubbo, cnt=1
+2023-09-21 14:35:09.717 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.service.InvokeUserService::.condition-router+dubbo
+2023-09-21 14:35:09.717 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.service.InvokeUserService::.condition-router, group=dubbo, cnt=1
+2023-09-21 14:35:09.722 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] dubbo-springboot-demo-provider.condition-router+dubbo
+2023-09-21 14:35:09.722 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=dubbo-springboot-demo-provider.condition-router, group=dubbo, cnt=1
+2023-09-21 14:35:09.845 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] dubbo-springboot-demo-provider.MESHAPPRULE+dubbo
+2023-09-21 14:35:09.846 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=dubbo-springboot-demo-provider.MESHAPPRULE, group=dubbo, cnt=1
+2023-09-21 14:35:09.846 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] dubbo-springboot-demo-provider.tag-router+dubbo
+2023-09-21 14:35:09.846 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=dubbo-springboot-demo-provider.tag-router, group=dubbo, cnt=1
+2023-09-21 14:35:09.854 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.service.InvokeUserService::.configurators+dubbo
+2023-09-21 14:35:09.854 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.service.InvokeUserService::.configurators, group=dubbo, cnt=1
+2023-09-21 14:35:10.064 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.service.InvokeUserService+mapping
+2023-09-21 14:35:10.064 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.service.InvokeUserService, group=mapping, cnt=1
+2023-09-21 14:35:10.173 INFO [com.alibaba.nacos.client.remote.worker:c.a.n.c.c.i.ClientWorker] [d0db83d1-39d7-48de-a484-cae695b63e66_config-0] Connected,notify listen context...
+2023-09-21 14:35:10.179 INFO [restartedMain:c.a.n.c.c.u.JvmUtil] isMultiInstance:false
+2023-09-21 14:35:10.216 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.service.InvokeUserInterfaceInfoService::.condition-router+dubbo
+2023-09-21 14:35:10.216 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.service.InvokeUserInterfaceInfoService::.condition-router, group=dubbo, cnt=1
+2023-09-21 14:35:10.233 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.service.InvokeUserInterfaceInfoService::.configurators+dubbo
+2023-09-21 14:35:10.233 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.service.InvokeUserInterfaceInfoService::.configurators, group=dubbo, cnt=1
+2023-09-21 14:35:10.378 INFO [com.alibaba.nacos.client.Worker:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [notify-listener] time cost=0ms in ClientWorker, dataId=com.wty.project.service.InvokeUserService, group=mapping, md5=2ae926d997a913eef80e928555b6660d, listener=org.apache.dubbo.metadata.store.nacos.NacosMetadataReport$NacosConfigListener@4a5faa68
+2023-09-21 14:35:10.379 INFO [nacos.client.cachedata.internal.notifier:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [notify-context] dataId=com.wty.project.service.InvokeUserService, group=mapping, md5=2ae926d997a913eef80e928555b6660d
+2023-09-21 14:35:10.493 INFO [nacos.client.cachedata.internal.notifier:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [notify-ok] dataId=com.wty.project.service.InvokeUserService, group=mapping, md5=2ae926d997a913eef80e928555b6660d, listener=org.apache.dubbo.metadata.store.nacos.NacosMetadataReport$NacosConfigListener@4a5faa68 ,cost=114 millis.
+2023-09-21 14:35:10.494 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.service.InvokeUserInterfaceInfoService+mapping
+2023-09-21 14:35:10.494 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.service.InvokeUserInterfaceInfoService, group=mapping, cnt=1
+2023-09-21 14:35:10.506 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.service.InvokeInterfaceInfoService::.condition-router+dubbo
+2023-09-21 14:35:10.507 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.service.InvokeInterfaceInfoService::.condition-router, group=dubbo, cnt=1
+2023-09-21 14:35:10.521 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.service.InvokeInterfaceInfoService::.configurators+dubbo
+2023-09-21 14:35:10.521 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.service.InvokeInterfaceInfoService::.configurators, group=dubbo, cnt=1
+2023-09-21 14:35:10.719 INFO [nacos.client.cachedata.internal.notifier:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [notify-context] dataId=com.wty.project.service.InvokeUserInterfaceInfoService, group=mapping, md5=2ae926d997a913eef80e928555b6660d
+2023-09-21 14:35:10.719 INFO [com.alibaba.nacos.client.Worker:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [notify-listener] time cost=0ms in ClientWorker, dataId=com.wty.project.service.InvokeUserInterfaceInfoService, group=mapping, md5=2ae926d997a913eef80e928555b6660d, listener=org.apache.dubbo.metadata.store.nacos.NacosMetadataReport$NacosConfigListener@188cebfe
+2023-09-21 14:35:10.720 INFO [nacos.client.cachedata.internal.notifier:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [notify-ok] dataId=com.wty.project.service.InvokeUserInterfaceInfoService, group=mapping, md5=2ae926d997a913eef80e928555b6660d, listener=org.apache.dubbo.metadata.store.nacos.NacosMetadataReport$NacosConfigListener@188cebfe ,cost=1 millis.
+2023-09-21 14:35:10.745 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.service.InvokeInterfaceInfoService+mapping
+2023-09-21 14:35:10.745 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.service.InvokeInterfaceInfoService, group=mapping, cnt=1
+2023-09-21 14:35:10.906 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] org.apache.dubbo.metadata.MetadataService:1.0.0:dubbo-springboot-demo-provider.configurators+dubbo
+2023-09-21 14:35:10.907 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=org.apache.dubbo.metadata.MetadataService:1.0.0:dubbo-springboot-demo-provider.configurators, group=dubbo, cnt=1
+2023-09-21 14:35:10.964 INFO [com.alibaba.nacos.client.Worker:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [notify-listener] time cost=0ms in ClientWorker, dataId=com.wty.project.service.InvokeInterfaceInfoService, group=mapping, md5=2ae926d997a913eef80e928555b6660d, listener=org.apache.dubbo.metadata.store.nacos.NacosMetadataReport$NacosConfigListener@35cdb93f
+2023-09-21 14:35:10.964 INFO [nacos.client.cachedata.internal.notifier:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [notify-context] dataId=com.wty.project.service.InvokeInterfaceInfoService, group=mapping, md5=2ae926d997a913eef80e928555b6660d
+2023-09-21 14:35:10.966 INFO [nacos.client.cachedata.internal.notifier:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [notify-ok] dataId=com.wty.project.service.InvokeInterfaceInfoService, group=mapping, md5=2ae926d997a913eef80e928555b6660d, listener=org.apache.dubbo.metadata.store.nacos.NacosMetadataReport$NacosConfigListener@35cdb93f ,cost=2 millis.
+2023-09-21 14:36:19.812 INFO [Thread-2:c.a.n.c.a.r.i.CredentialWatcher] [null] CredentialWatcher is stopped
+2023-09-21 14:36:19.812 INFO [Thread-2:c.a.n.c.a.r.i.CredentialService] [null] CredentialService is freed
+2023-09-21 14:36:21.416 INFO [com.alibaba.nacos.client.Worker:c.a.n.c.a.r.i.CredentialWatcher] null No credential found
+2023-09-21 14:36:21.842 INFO [Thread-2:c.a.n.c.c.i.ClientWorker] com.alibaba.nacos.client.config.impl.ClientWorker do shutdown begin
+2023-09-21 14:36:21.842 INFO [Thread-2:c.a.n.c.a.r.i.CredentialWatcher] [null] CredentialWatcher is stopped
+2023-09-21 14:36:21.843 INFO [Thread-2:c.a.n.c.a.r.i.CredentialService] [null] CredentialService is freed
+2023-09-21 14:36:21.843 INFO [Thread-2:c.a.n.c.c.i.ClientWorker] Trying to shutdown transport client com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient@398182ce
+2023-09-21 14:36:21.843 INFO [Thread-2:c.a.n.c.c.i.ClientWorker] Trying to shutdown rpc client d3b3c594-ef89-4fa7-9be3-3b055db03777_config-0
+2023-09-21 14:36:21.844 INFO [Thread-2:c.a.n.c.c.i.ClientWorker] Remove rpc client d3b3c594-ef89-4fa7-9be3-3b055db03777_config-0
+2023-09-21 14:36:21.844 INFO [Thread-2:c.a.n.c.c.i.ClientWorker] Shutdown executor java.util.concurrent.ScheduledThreadPoolExecutor@5daaa81e[Running, pool size = 16, active threads = 1, queued tasks = 1, completed tasks = 16]
+2023-09-21 14:36:21.844 INFO [Thread-2:c.a.n.c.c.i.ClientWorker] com.alibaba.nacos.client.config.impl.ClientWorker do shutdown stop
+2023-09-21 15:01:20.891 INFO [restartedMain:c.a.n.c.u.ParamUtil] [settings] [req-serv] nacos-server port:8848
+2023-09-21 15:01:20.892 INFO [restartedMain:c.a.n.c.u.ParamUtil] [settings] [http-client] connect timeout:1000
+2023-09-21 15:01:20.894 INFO [restartedMain:c.a.n.c.u.ParamUtil] PER_TASK_CONFIG_SIZE: 3000.0
+2023-09-21 15:01:20.917 INFO [restartedMain:c.a.n.c.a.r.i.CredentialWatcher] null No credential found
+2023-09-21 15:01:20.921 INFO [restartedMain:c.a.n.c.c.i.LocalConfigInfoProcessor] LOCAL_SNAPSHOT_PATH:myhome\nacos\config
+2023-09-21 15:01:22.702 INFO [com.alibaba.nacos.client.remote.worker:c.a.n.c.c.i.ClientWorker] [27f8b863-e365-457c-82f2-d4a1f73445cc_config-0] Connected,notify listen context...
+2023-09-21 15:01:22.730 INFO [restartedMain:c.a.n.c.c.i.Limiter] limitTime:5.0
+2023-09-21 15:01:26.081 INFO [restartedMain:c.a.n.c.c.i.CacheData] nacos.cache.data.init.snapshot = true 
+2023-09-21 15:01:26.082 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] dubbo-springboot-demo-provider.migration+DUBBO_SERVICEDISCOVERY_MIGRATION
+2023-09-21 15:01:26.088 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=dubbo-springboot-demo-provider.migration, group=DUBBO_SERVICEDISCOVERY_MIGRATION, cnt=1
+2023-09-21 15:01:26.130 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] dubbo-springboot-demo-provider.configurators+dubbo
+2023-09-21 15:01:26.130 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=dubbo-springboot-demo-provider.configurators, group=dubbo, cnt=1
+2023-09-21 15:01:26.144 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.service.InvokeUserService::.condition-router+dubbo
+2023-09-21 15:01:26.144 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.service.InvokeUserService::.condition-router, group=dubbo, cnt=1
+2023-09-21 15:01:26.149 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] dubbo-springboot-demo-provider.condition-router+dubbo
+2023-09-21 15:01:26.149 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=dubbo-springboot-demo-provider.condition-router, group=dubbo, cnt=1
+2023-09-21 15:01:26.269 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] dubbo-springboot-demo-provider.MESHAPPRULE+dubbo
+2023-09-21 15:01:26.270 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=dubbo-springboot-demo-provider.MESHAPPRULE, group=dubbo, cnt=1
+2023-09-21 15:01:26.270 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] dubbo-springboot-demo-provider.tag-router+dubbo
+2023-09-21 15:01:26.270 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=dubbo-springboot-demo-provider.tag-router, group=dubbo, cnt=1
+2023-09-21 15:01:26.276 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.service.InvokeUserService::.configurators+dubbo
+2023-09-21 15:01:26.276 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.service.InvokeUserService::.configurators, group=dubbo, cnt=1
+2023-09-21 15:01:26.487 INFO [Dubbo-framework-mapping-refreshing-scheduler-thread-1:c.a.n.c.c.u.JvmUtil] isMultiInstance:false
+2023-09-21 15:01:26.487 INFO [Dubbo-framework-mapping-refreshing-scheduler-thread-1:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.service.InvokeUserService+mapping
+2023-09-21 15:01:26.487 INFO [Dubbo-framework-mapping-refreshing-scheduler-thread-1:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.service.InvokeUserService, group=mapping, cnt=1
+2023-09-21 15:01:26.530 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.service.InvokeUserInterfaceInfoService::.condition-router+dubbo
+2023-09-21 15:01:26.530 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.service.InvokeUserInterfaceInfoService::.condition-router, group=dubbo, cnt=1
+2023-09-21 15:01:26.548 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.service.InvokeUserInterfaceInfoService::.configurators+dubbo
+2023-09-21 15:01:26.549 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.service.InvokeUserInterfaceInfoService::.configurators, group=dubbo, cnt=1
+2023-09-21 15:01:26.596 INFO [com.alibaba.nacos.client.remote.worker:c.a.n.c.c.i.ClientWorker] [eee3748c-27e3-404a-a30f-f841d18632ef_config-0] Connected,notify listen context...
+2023-09-21 15:01:26.753 INFO [Dubbo-framework-mapping-refreshing-scheduler-thread-2:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.service.InvokeUserInterfaceInfoService+mapping
+2023-09-21 15:01:26.754 INFO [Dubbo-framework-mapping-refreshing-scheduler-thread-2:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.service.InvokeUserInterfaceInfoService, group=mapping, cnt=1
+2023-09-21 15:01:26.760 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.service.InvokeInterfaceInfoService::.condition-router+dubbo
+2023-09-21 15:01:26.760 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.service.InvokeInterfaceInfoService::.condition-router, group=dubbo, cnt=1
+2023-09-21 15:01:26.770 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.service.InvokeInterfaceInfoService::.configurators+dubbo
+2023-09-21 15:01:26.770 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.service.InvokeInterfaceInfoService::.configurators, group=dubbo, cnt=1
+2023-09-21 15:01:26.978 INFO [Dubbo-framework-mapping-refreshing-scheduler-thread-3:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.service.InvokeInterfaceInfoService+mapping
+2023-09-21 15:01:26.978 INFO [Dubbo-framework-mapping-refreshing-scheduler-thread-3:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.service.InvokeInterfaceInfoService, group=mapping, cnt=1
+2023-09-21 15:01:27.136 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] org.apache.dubbo.metadata.MetadataService:1.0.0:dubbo-springboot-demo-provider.configurators+dubbo
+2023-09-21 15:01:27.137 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=org.apache.dubbo.metadata.MetadataService:1.0.0:dubbo-springboot-demo-provider.configurators, group=dubbo, cnt=1
+2023-09-21 15:12:40.991 INFO [Thread-2:c.a.n.c.a.r.i.CredentialWatcher] [null] CredentialWatcher is stopped
+2023-09-21 15:12:40.991 INFO [Thread-2:c.a.n.c.a.r.i.CredentialService] [null] CredentialService is freed
+2023-09-21 15:12:41.049 INFO [com.alibaba.nacos.client.Worker:c.a.n.c.a.r.i.CredentialWatcher] null No credential found
+2023-09-21 15:12:43.070 INFO [Thread-2:c.a.n.c.c.i.ClientWorker] com.alibaba.nacos.client.config.impl.ClientWorker do shutdown begin
+2023-09-21 15:12:43.073 INFO [Thread-2:c.a.n.c.a.r.i.CredentialWatcher] [null] CredentialWatcher is stopped
+2023-09-21 15:12:43.073 INFO [Thread-2:c.a.n.c.a.r.i.CredentialService] [null] CredentialService is freed
+2023-09-21 15:12:43.073 INFO [Thread-2:c.a.n.c.c.i.ClientWorker] Trying to shutdown transport client com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient@3708962
+2023-09-21 15:12:43.073 INFO [Thread-2:c.a.n.c.c.i.ClientWorker] Trying to shutdown rpc client 27f8b863-e365-457c-82f2-d4a1f73445cc_config-0
+2023-09-21 15:12:43.074 INFO [Thread-2:c.a.n.c.c.i.ClientWorker] Remove rpc client 27f8b863-e365-457c-82f2-d4a1f73445cc_config-0
+2023-09-21 15:12:43.074 INFO [Thread-2:c.a.n.c.c.i.ClientWorker] Shutdown executor java.util.concurrent.ScheduledThreadPoolExecutor@7bf3da7c[Running, pool size = 16, active threads = 1, queued tasks = 1, completed tasks = 137]
+2023-09-21 15:12:43.074 INFO [Thread-2:c.a.n.c.c.i.ClientWorker] com.alibaba.nacos.client.config.impl.ClientWorker do shutdown stop
+2023-09-21 15:15:47.768 INFO [restartedMain:c.a.n.c.u.ParamUtil] [settings] [req-serv] nacos-server port:8848
+2023-09-21 15:15:47.769 INFO [restartedMain:c.a.n.c.u.ParamUtil] [settings] [http-client] connect timeout:1000
+2023-09-21 15:15:47.770 INFO [restartedMain:c.a.n.c.u.ParamUtil] PER_TASK_CONFIG_SIZE: 3000.0
+2023-09-21 15:15:47.791 INFO [restartedMain:c.a.n.c.a.r.i.CredentialWatcher] null No credential found
+2023-09-21 15:15:47.795 INFO [restartedMain:c.a.n.c.c.i.LocalConfigInfoProcessor] LOCAL_SNAPSHOT_PATH:myhome\nacos\config
+2023-09-21 15:15:49.747 INFO [com.alibaba.nacos.client.remote.worker:c.a.n.c.c.i.ClientWorker] [8f28ce65-df35-4a33-b6d8-4f1a74fcaeec_config-0] Connected,notify listen context...
+2023-09-21 15:15:49.778 INFO [restartedMain:c.a.n.c.c.i.Limiter] limitTime:5.0
+2023-09-21 15:15:53.704 INFO [restartedMain:c.a.n.c.c.i.CacheData] nacos.cache.data.init.snapshot = true 
+2023-09-21 15:15:53.704 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] dubbo-springboot-demo-provider.migration+DUBBO_SERVICEDISCOVERY_MIGRATION
+2023-09-21 15:15:53.712 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=dubbo-springboot-demo-provider.migration, group=DUBBO_SERVICEDISCOVERY_MIGRATION, cnt=1
+2023-09-21 15:15:53.759 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] dubbo-springboot-demo-provider.configurators+dubbo
+2023-09-21 15:15:53.760 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=dubbo-springboot-demo-provider.configurators, group=dubbo, cnt=1
+2023-09-21 15:15:53.777 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.service.InvokeUserService::.condition-router+dubbo
+2023-09-21 15:15:53.777 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.service.InvokeUserService::.condition-router, group=dubbo, cnt=1
+2023-09-21 15:15:53.783 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] dubbo-springboot-demo-provider.condition-router+dubbo
+2023-09-21 15:15:53.783 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=dubbo-springboot-demo-provider.condition-router, group=dubbo, cnt=1
+2023-09-21 15:15:53.932 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] dubbo-springboot-demo-provider.MESHAPPRULE+dubbo
+2023-09-21 15:15:53.932 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=dubbo-springboot-demo-provider.MESHAPPRULE, group=dubbo, cnt=1
+2023-09-21 15:15:53.933 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] dubbo-springboot-demo-provider.tag-router+dubbo
+2023-09-21 15:15:53.933 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=dubbo-springboot-demo-provider.tag-router, group=dubbo, cnt=1
+2023-09-21 15:15:53.941 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.service.InvokeUserService::.configurators+dubbo
+2023-09-21 15:15:53.942 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.service.InvokeUserService::.configurators, group=dubbo, cnt=1
+2023-09-21 15:15:54.153 INFO [Dubbo-framework-mapping-refreshing-scheduler-thread-1:c.a.n.c.c.u.JvmUtil] isMultiInstance:false
+2023-09-21 15:15:54.154 INFO [Dubbo-framework-mapping-refreshing-scheduler-thread-1:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.service.InvokeUserService+mapping
+2023-09-21 15:15:54.154 INFO [Dubbo-framework-mapping-refreshing-scheduler-thread-1:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.service.InvokeUserService, group=mapping, cnt=1
+2023-09-21 15:15:54.204 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.service.InvokeUserInterfaceInfoService::.condition-router+dubbo
+2023-09-21 15:15:54.204 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.service.InvokeUserInterfaceInfoService::.condition-router, group=dubbo, cnt=1
+2023-09-21 15:15:54.227 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.service.InvokeUserInterfaceInfoService::.configurators+dubbo
+2023-09-21 15:15:54.227 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.service.InvokeUserInterfaceInfoService::.configurators, group=dubbo, cnt=1
+2023-09-21 15:15:54.265 INFO [com.alibaba.nacos.client.remote.worker:c.a.n.c.c.i.ClientWorker] [7090a124-8a11-47e9-b008-730547fda987_config-0] Connected,notify listen context...
+2023-09-21 15:15:54.431 INFO [Dubbo-framework-mapping-refreshing-scheduler-thread-2:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.service.InvokeUserInterfaceInfoService+mapping
+2023-09-21 15:15:54.431 INFO [Dubbo-framework-mapping-refreshing-scheduler-thread-2:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.service.InvokeUserInterfaceInfoService, group=mapping, cnt=1
+2023-09-21 15:15:54.441 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.service.InvokeInterfaceInfoService::.condition-router+dubbo
+2023-09-21 15:15:54.441 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.service.InvokeInterfaceInfoService::.condition-router, group=dubbo, cnt=1
+2023-09-21 15:15:54.458 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.service.InvokeInterfaceInfoService::.configurators+dubbo
+2023-09-21 15:15:54.458 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.service.InvokeInterfaceInfoService::.configurators, group=dubbo, cnt=1
+2023-09-21 15:15:54.681 INFO [Dubbo-framework-mapping-refreshing-scheduler-thread-3:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.service.InvokeInterfaceInfoService+mapping
+2023-09-21 15:15:54.681 INFO [Dubbo-framework-mapping-refreshing-scheduler-thread-3:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.service.InvokeInterfaceInfoService, group=mapping, cnt=1
+2023-09-21 15:15:54.824 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] org.apache.dubbo.metadata.MetadataService:1.0.0:dubbo-springboot-demo-provider.configurators+dubbo
+2023-09-21 15:15:54.824 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=org.apache.dubbo.metadata.MetadataService:1.0.0:dubbo-springboot-demo-provider.configurators, group=dubbo, cnt=1
+2023-09-21 15:19:07.335 INFO [restartedMain:c.a.n.c.u.ParamUtil] [settings] [req-serv] nacos-server port:8848
+2023-09-21 15:19:07.335 INFO [restartedMain:c.a.n.c.u.ParamUtil] [settings] [http-client] connect timeout:1000
+2023-09-21 15:19:07.336 INFO [restartedMain:c.a.n.c.u.ParamUtil] PER_TASK_CONFIG_SIZE: 3000.0
+2023-09-21 15:19:07.356 INFO [restartedMain:c.a.n.c.a.r.i.CredentialWatcher] null No credential found
+2023-09-21 15:19:07.359 INFO [restartedMain:c.a.n.c.c.i.LocalConfigInfoProcessor] LOCAL_SNAPSHOT_PATH:myhome\nacos\config
+2023-09-21 15:19:09.080 INFO [com.alibaba.nacos.client.remote.worker:c.a.n.c.c.i.ClientWorker] [967a1a95-56b8-42b0-9c5e-86c442b43bc1_config-0] Connected,notify listen context...
+2023-09-21 15:19:09.109 INFO [restartedMain:c.a.n.c.c.i.Limiter] limitTime:5.0
+2023-09-21 15:19:12.603 INFO [restartedMain:c.a.n.c.c.i.CacheData] nacos.cache.data.init.snapshot = true 
+2023-09-21 15:19:12.604 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] dubbo-springboot-demo-provider.configurators+dubbo
+2023-09-21 15:19:12.612 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=dubbo-springboot-demo-provider.configurators, group=dubbo, cnt=1
+2023-09-21 15:19:12.618 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] org.apache.dubbo.metadata.MetadataService:1.0.0:dubbo-springboot-demo-provider.configurators+dubbo
+2023-09-21 15:19:12.619 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=org.apache.dubbo.metadata.MetadataService:1.0.0:dubbo-springboot-demo-provider.configurators, group=dubbo, cnt=1
+2023-09-21 15:19:12.887 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] dubbo-springboot-demo-provider.migration+DUBBO_SERVICEDISCOVERY_MIGRATION
+2023-09-21 15:19:12.887 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=dubbo-springboot-demo-provider.migration, group=DUBBO_SERVICEDISCOVERY_MIGRATION, cnt=1
+2023-09-21 15:19:23.115 INFO [Thread-2:c.a.n.c.a.r.i.CredentialWatcher] [null] CredentialWatcher is stopped
+2023-09-21 15:19:23.115 INFO [Thread-2:c.a.n.c.a.r.i.CredentialService] [null] CredentialService is freed
+2023-09-21 15:22:48.867 INFO [com.alibaba.nacos.client.Worker:c.a.n.c.a.r.i.CredentialWatcher] null No credential found
+2023-09-21 15:22:48.872 INFO [com.alibaba.nacos.client.naming.security:c.a.n.c.a.r.i.CredentialWatcher] null No credential found
+2023-09-21 15:22:48.873 INFO [com.alibaba.nacos.client.Worker:c.a.n.c.a.r.i.CredentialWatcher] null No credential found
+2023-09-21 15:22:48.891 INFO [Thread-2:c.a.n.c.c.i.ClientWorker] com.alibaba.nacos.client.config.impl.ClientWorker do shutdown begin
+2023-09-21 15:22:48.891 INFO [Thread-2:c.a.n.c.a.r.i.CredentialWatcher] [null] CredentialWatcher is stopped
+2023-09-21 15:22:48.891 INFO [Thread-2:c.a.n.c.a.r.i.CredentialService] [null] CredentialService is freed
+2023-09-21 15:22:48.891 INFO [Thread-2:c.a.n.c.c.i.ClientWorker] Trying to shutdown transport client com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient@73c7d29e
+2023-09-21 15:22:48.891 INFO [Thread-2:c.a.n.c.c.i.ClientWorker] Trying to shutdown rpc client 967a1a95-56b8-42b0-9c5e-86c442b43bc1_config-0
+2023-09-21 15:22:48.892 INFO [Thread-2:c.a.n.c.c.i.ClientWorker] Remove rpc client 967a1a95-56b8-42b0-9c5e-86c442b43bc1_config-0
+2023-09-21 15:22:48.893 INFO [Thread-2:c.a.n.c.c.i.ClientWorker] Shutdown executor java.util.concurrent.ScheduledThreadPoolExecutor@7a05d7b1[Running, pool size = 7, active threads = 1, queued tasks = 1, completed tasks = 5]
+2023-09-21 15:22:48.893 INFO [Thread-2:c.a.n.c.c.i.ClientWorker] com.alibaba.nacos.client.config.impl.ClientWorker do shutdown stop
+2023-09-21 15:22:55.689 INFO [restartedMain:c.a.n.c.u.ParamUtil] [settings] [req-serv] nacos-server port:8848
+2023-09-21 15:22:55.690 INFO [restartedMain:c.a.n.c.u.ParamUtil] [settings] [http-client] connect timeout:1000
+2023-09-21 15:22:55.691 INFO [restartedMain:c.a.n.c.u.ParamUtil] PER_TASK_CONFIG_SIZE: 3000.0
+2023-09-21 15:22:55.716 INFO [restartedMain:c.a.n.c.a.r.i.CredentialWatcher] null No credential found
+2023-09-21 15:22:55.721 INFO [restartedMain:c.a.n.c.c.i.LocalConfigInfoProcessor] LOCAL_SNAPSHOT_PATH:myhome\nacos\config
+2023-09-21 15:22:57.694 INFO [com.alibaba.nacos.client.remote.worker:c.a.n.c.c.i.ClientWorker] [61618b14-f30e-4220-83b4-05eadf515601_config-0] Connected,notify listen context...
+2023-09-21 15:22:57.730 INFO [restartedMain:c.a.n.c.c.i.Limiter] limitTime:5.0
+2023-09-21 15:23:01.708 INFO [restartedMain:c.a.n.c.c.i.CacheData] nacos.cache.data.init.snapshot = true 
+2023-09-21 15:23:01.708 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] dubbo-springboot-demo-provider.migration+DUBBO_SERVICEDISCOVERY_MIGRATION
+2023-09-21 15:23:01.717 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=dubbo-springboot-demo-provider.migration, group=DUBBO_SERVICEDISCOVERY_MIGRATION, cnt=1
+2023-09-21 15:23:01.765 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] dubbo-springboot-demo-provider.configurators+dubbo
+2023-09-21 15:23:01.766 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=dubbo-springboot-demo-provider.configurators, group=dubbo, cnt=1
+2023-09-21 15:23:01.787 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.service.InvokeUserService::.condition-router+dubbo
+2023-09-21 15:23:01.787 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.service.InvokeUserService::.condition-router, group=dubbo, cnt=1
+2023-09-21 15:23:01.793 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] dubbo-springboot-demo-provider.condition-router+dubbo
+2023-09-21 15:23:01.794 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=dubbo-springboot-demo-provider.condition-router, group=dubbo, cnt=1
+2023-09-21 15:23:01.982 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] dubbo-springboot-demo-provider.MESHAPPRULE+dubbo
+2023-09-21 15:23:01.982 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=dubbo-springboot-demo-provider.MESHAPPRULE, group=dubbo, cnt=1
+2023-09-21 15:23:01.983 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] dubbo-springboot-demo-provider.tag-router+dubbo
+2023-09-21 15:23:01.983 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=dubbo-springboot-demo-provider.tag-router, group=dubbo, cnt=1
+2023-09-21 15:23:01.993 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.service.InvokeUserService::.configurators+dubbo
+2023-09-21 15:23:01.993 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.service.InvokeUserService::.configurators, group=dubbo, cnt=1
+2023-09-21 15:23:02.208 INFO [Dubbo-framework-mapping-refreshing-scheduler-thread-1:c.a.n.c.c.u.JvmUtil] isMultiInstance:false
+2023-09-21 15:23:02.209 INFO [Dubbo-framework-mapping-refreshing-scheduler-thread-1:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.service.InvokeUserService+mapping
+2023-09-21 15:23:02.209 INFO [Dubbo-framework-mapping-refreshing-scheduler-thread-1:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.service.InvokeUserService, group=mapping, cnt=1
+2023-09-21 15:23:02.275 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.service.InvokeUserInterfaceInfoService::.condition-router+dubbo
+2023-09-21 15:23:02.275 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.service.InvokeUserInterfaceInfoService::.condition-router, group=dubbo, cnt=1
+2023-09-21 15:23:02.302 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.service.InvokeUserInterfaceInfoService::.configurators+dubbo
+2023-09-21 15:23:02.303 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.service.InvokeUserInterfaceInfoService::.configurators, group=dubbo, cnt=1
+2023-09-21 15:23:02.323 INFO [com.alibaba.nacos.client.remote.worker:c.a.n.c.c.i.ClientWorker] [7896a63c-3410-40db-ae30-669b751c7f2e_config-0] Connected,notify listen context...
+2023-09-21 15:23:02.510 INFO [Dubbo-framework-mapping-refreshing-scheduler-thread-2:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.service.InvokeUserInterfaceInfoService+mapping
+2023-09-21 15:23:02.510 INFO [Dubbo-framework-mapping-refreshing-scheduler-thread-2:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.service.InvokeUserInterfaceInfoService, group=mapping, cnt=1
+2023-09-21 15:23:02.524 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.service.InvokeInterfaceInfoService::.condition-router+dubbo
+2023-09-21 15:23:02.524 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.service.InvokeInterfaceInfoService::.condition-router, group=dubbo, cnt=1
+2023-09-21 15:23:02.549 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.service.InvokeInterfaceInfoService::.configurators+dubbo
+2023-09-21 15:23:02.549 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.service.InvokeInterfaceInfoService::.configurators, group=dubbo, cnt=1
+2023-09-21 15:23:02.755 INFO [Dubbo-framework-mapping-refreshing-scheduler-thread-3:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.service.InvokeInterfaceInfoService+mapping
+2023-09-21 15:23:02.755 INFO [Dubbo-framework-mapping-refreshing-scheduler-thread-3:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.service.InvokeInterfaceInfoService, group=mapping, cnt=1
+2023-09-21 15:23:03.149 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] org.apache.dubbo.metadata.MetadataService:1.0.0:dubbo-springboot-demo-provider.configurators+dubbo
+2023-09-21 15:23:03.149 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=org.apache.dubbo.metadata.MetadataService:1.0.0:dubbo-springboot-demo-provider.configurators, group=dubbo, cnt=1
+2023-09-21 15:24:00.230 INFO [Thread-2:c.a.n.c.a.r.i.CredentialWatcher] [null] CredentialWatcher is stopped
+2023-09-21 15:24:00.231 INFO [Thread-2:c.a.n.c.a.r.i.CredentialService] [null] CredentialService is freed
+2023-09-21 15:24:00.730 INFO [com.alibaba.nacos.client.Worker:c.a.n.c.a.r.i.CredentialWatcher] null No credential found
+2023-09-21 15:24:02.255 INFO [Thread-2:c.a.n.c.c.i.ClientWorker] com.alibaba.nacos.client.config.impl.ClientWorker do shutdown begin
+2023-09-21 15:24:02.255 INFO [Thread-2:c.a.n.c.a.r.i.CredentialWatcher] [null] CredentialWatcher is stopped
+2023-09-21 15:24:02.255 INFO [Thread-2:c.a.n.c.a.r.i.CredentialService] [null] CredentialService is freed
+2023-09-21 15:24:02.255 INFO [Thread-2:c.a.n.c.c.i.ClientWorker] Trying to shutdown transport client com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient@77ffff24
+2023-09-21 15:24:02.255 INFO [Thread-2:c.a.n.c.c.i.ClientWorker] Trying to shutdown rpc client 61618b14-f30e-4220-83b4-05eadf515601_config-0
+2023-09-21 15:24:02.255 INFO [Thread-2:c.a.n.c.c.i.ClientWorker] Remove rpc client 61618b14-f30e-4220-83b4-05eadf515601_config-0
+2023-09-21 15:24:02.255 INFO [Thread-2:c.a.n.c.c.i.ClientWorker] Shutdown executor java.util.concurrent.ScheduledThreadPoolExecutor@434e2310[Running, pool size = 16, active threads = 1, queued tasks = 1, completed tasks = 14]
+2023-09-21 15:24:02.256 INFO [Thread-2:c.a.n.c.c.i.ClientWorker] com.alibaba.nacos.client.config.impl.ClientWorker do shutdown stop
+2023-09-21 16:00:47.765 INFO [restartedMain:c.a.n.c.u.ParamUtil] [settings] [req-serv] nacos-server port:8848
+2023-09-21 16:00:47.766 INFO [restartedMain:c.a.n.c.u.ParamUtil] [settings] [http-client] connect timeout:1000
+2023-09-21 16:00:47.768 INFO [restartedMain:c.a.n.c.u.ParamUtil] PER_TASK_CONFIG_SIZE: 3000.0
+2023-09-21 16:01:38.357 INFO [restartedMain:c.a.n.c.u.ParamUtil] [settings] [req-serv] nacos-server port:8848
+2023-09-21 16:01:38.358 INFO [restartedMain:c.a.n.c.u.ParamUtil] [settings] [http-client] connect timeout:1000
+2023-09-21 16:01:38.359 INFO [restartedMain:c.a.n.c.u.ParamUtil] PER_TASK_CONFIG_SIZE: 3000.0
+2023-09-21 16:01:38.377 INFO [restartedMain:c.a.n.c.a.r.i.CredentialWatcher] null No credential found
+2023-09-21 16:01:38.380 INFO [restartedMain:c.a.n.c.c.i.LocalConfigInfoProcessor] LOCAL_SNAPSHOT_PATH:myhome\nacos\config
+2023-09-21 16:01:40.087 INFO [com.alibaba.nacos.client.remote.worker:c.a.n.c.c.i.ClientWorker] [4068359e-9e2d-4221-89ea-93e0219350ca_config-0] Connected,notify listen context...
+2023-09-21 16:01:40.116 INFO [restartedMain:c.a.n.c.c.i.Limiter] limitTime:5.0
+2023-09-21 16:01:43.759 INFO [restartedMain:c.a.n.c.c.i.CacheData] nacos.cache.data.init.snapshot = true 
+2023-09-21 16:01:43.759 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] dubbo-springboot-demo-provider.migration+DUBBO_SERVICEDISCOVERY_MIGRATION
+2023-09-21 16:01:43.767 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=dubbo-springboot-demo-provider.migration, group=DUBBO_SERVICEDISCOVERY_MIGRATION, cnt=1
+2023-09-21 16:01:43.823 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] dubbo-springboot-demo-provider.configurators+dubbo
+2023-09-21 16:01:43.824 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=dubbo-springboot-demo-provider.configurators, group=dubbo, cnt=1
+2023-09-21 16:01:43.840 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.service.InvokeUserService::.condition-router+dubbo
+2023-09-21 16:01:43.840 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.service.InvokeUserService::.condition-router, group=dubbo, cnt=1
+2023-09-21 16:01:43.844 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] dubbo-springboot-demo-provider.condition-router+dubbo
+2023-09-21 16:01:43.845 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=dubbo-springboot-demo-provider.condition-router, group=dubbo, cnt=1
+2023-09-21 16:01:43.976 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] dubbo-springboot-demo-provider.MESHAPPRULE+dubbo
+2023-09-21 16:01:43.976 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=dubbo-springboot-demo-provider.MESHAPPRULE, group=dubbo, cnt=1
+2023-09-21 16:01:43.977 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] dubbo-springboot-demo-provider.tag-router+dubbo
+2023-09-21 16:01:43.977 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=dubbo-springboot-demo-provider.tag-router, group=dubbo, cnt=1
+2023-09-21 16:01:43.985 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.service.InvokeUserService::.configurators+dubbo
+2023-09-21 16:01:43.985 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.service.InvokeUserService::.configurators, group=dubbo, cnt=1
+2023-09-21 16:01:44.196 INFO [Dubbo-framework-mapping-refreshing-scheduler-thread-1:c.a.n.c.c.u.JvmUtil] isMultiInstance:false
+2023-09-21 16:01:44.197 INFO [Dubbo-framework-mapping-refreshing-scheduler-thread-1:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.service.InvokeUserService+mapping
+2023-09-21 16:01:44.197 INFO [Dubbo-framework-mapping-refreshing-scheduler-thread-1:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.service.InvokeUserService, group=mapping, cnt=1
+2023-09-21 16:01:44.241 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.service.InvokeUserInterfaceInfoService::.condition-router+dubbo
+2023-09-21 16:01:44.241 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.service.InvokeUserInterfaceInfoService::.condition-router, group=dubbo, cnt=1
+2023-09-21 16:01:44.258 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.service.InvokeUserInterfaceInfoService::.configurators+dubbo
+2023-09-21 16:01:44.258 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.service.InvokeUserInterfaceInfoService::.configurators, group=dubbo, cnt=1
+2023-09-21 16:01:44.306 INFO [com.alibaba.nacos.client.remote.worker:c.a.n.c.c.i.ClientWorker] [e227520e-c7b7-4034-9e3c-374865a6d0d6_config-0] Connected,notify listen context...
+2023-09-21 16:01:44.463 INFO [Dubbo-framework-mapping-refreshing-scheduler-thread-2:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.service.InvokeUserInterfaceInfoService+mapping
+2023-09-21 16:01:44.463 INFO [Dubbo-framework-mapping-refreshing-scheduler-thread-2:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.service.InvokeUserInterfaceInfoService, group=mapping, cnt=1
+2023-09-21 16:01:44.471 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.service.InvokeInterfaceInfoService::.condition-router+dubbo
+2023-09-21 16:01:44.471 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.service.InvokeInterfaceInfoService::.condition-router, group=dubbo, cnt=1
+2023-09-21 16:01:44.487 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.service.InvokeInterfaceInfoService::.configurators+dubbo
+2023-09-21 16:01:44.487 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.service.InvokeInterfaceInfoService::.configurators, group=dubbo, cnt=1
+2023-09-21 16:01:44.910 INFO [Dubbo-framework-mapping-refreshing-scheduler-thread-3:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.service.InvokeInterfaceInfoService+mapping
+2023-09-21 16:01:44.910 INFO [Dubbo-framework-mapping-refreshing-scheduler-thread-3:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.service.InvokeInterfaceInfoService, group=mapping, cnt=1
+2023-09-21 16:01:45.081 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] org.apache.dubbo.metadata.MetadataService:1.0.0:dubbo-springboot-demo-provider.configurators+dubbo
+2023-09-21 16:01:45.082 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=org.apache.dubbo.metadata.MetadataService:1.0.0:dubbo-springboot-demo-provider.configurators, group=dubbo, cnt=1
+2023-09-21 16:01:54.619 INFO [Thread-2:c.a.n.c.a.r.i.CredentialWatcher] [null] CredentialWatcher is stopped
+2023-09-21 16:01:54.619 INFO [Thread-2:c.a.n.c.a.r.i.CredentialService] [null] CredentialService is freed
+2023-09-21 16:01:55.223 INFO [com.alibaba.nacos.client.Worker:c.a.n.c.a.r.i.CredentialWatcher] null No credential found
+2023-09-21 16:01:56.689 INFO [Thread-2:c.a.n.c.c.i.ClientWorker] com.alibaba.nacos.client.config.impl.ClientWorker do shutdown begin
+2023-09-21 16:01:56.689 INFO [Thread-2:c.a.n.c.a.r.i.CredentialWatcher] [null] CredentialWatcher is stopped
+2023-09-21 16:01:56.689 INFO [Thread-2:c.a.n.c.a.r.i.CredentialService] [null] CredentialService is freed
+2023-09-21 16:01:56.689 INFO [Thread-2:c.a.n.c.c.i.ClientWorker] Trying to shutdown transport client com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient@165b9e0e
+2023-09-21 16:01:56.690 INFO [Thread-2:c.a.n.c.c.i.ClientWorker] Trying to shutdown rpc client 4068359e-9e2d-4221-89ea-93e0219350ca_config-0
+2023-09-21 16:01:56.690 INFO [Thread-2:c.a.n.c.c.i.ClientWorker] Remove rpc client 4068359e-9e2d-4221-89ea-93e0219350ca_config-0
+2023-09-21 16:01:56.690 INFO [Thread-2:c.a.n.c.c.i.ClientWorker] Shutdown executor java.util.concurrent.ScheduledThreadPoolExecutor@667ce98f[Running, pool size = 6, active threads = 1, queued tasks = 1, completed tasks = 4]
+2023-09-21 16:01:56.690 INFO [Thread-2:c.a.n.c.c.i.ClientWorker] com.alibaba.nacos.client.config.impl.ClientWorker do shutdown stop
+2023-09-21 16:03:14.402 INFO [restartedMain:c.a.n.c.u.ParamUtil] [settings] [req-serv] nacos-server port:8848
+2023-09-21 16:03:14.402 INFO [restartedMain:c.a.n.c.u.ParamUtil] [settings] [http-client] connect timeout:1000
+2023-09-21 16:03:14.404 INFO [restartedMain:c.a.n.c.u.ParamUtil] PER_TASK_CONFIG_SIZE: 3000.0
+2023-09-21 16:03:14.424 INFO [restartedMain:c.a.n.c.a.r.i.CredentialWatcher] null No credential found
+2023-09-21 16:03:14.428 INFO [restartedMain:c.a.n.c.c.i.LocalConfigInfoProcessor] LOCAL_SNAPSHOT_PATH:myhome\nacos\config
+2023-09-21 16:03:16.265 INFO [com.alibaba.nacos.client.remote.worker:c.a.n.c.c.i.ClientWorker] [45a7442f-1195-4cde-8505-fab9e482f8c6_config-0] Connected,notify listen context...
+2023-09-21 16:03:16.294 INFO [restartedMain:c.a.n.c.c.i.Limiter] limitTime:5.0
+2023-09-21 16:03:20.160 INFO [restartedMain:c.a.n.c.c.i.CacheData] nacos.cache.data.init.snapshot = true 
+2023-09-21 16:03:20.161 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] dubbo-springboot-demo-provider.migration+DUBBO_SERVICEDISCOVERY_MIGRATION
+2023-09-21 16:03:20.174 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=dubbo-springboot-demo-provider.migration, group=DUBBO_SERVICEDISCOVERY_MIGRATION, cnt=1
+2023-09-21 16:03:20.226 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] dubbo-springboot-demo-provider.configurators+dubbo
+2023-09-21 16:03:20.226 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=dubbo-springboot-demo-provider.configurators, group=dubbo, cnt=1
+2023-09-21 16:03:20.248 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.service.InvokeUserService::.condition-router+dubbo
+2023-09-21 16:03:20.249 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.service.InvokeUserService::.condition-router, group=dubbo, cnt=1
+2023-09-21 16:03:20.254 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] dubbo-springboot-demo-provider.condition-router+dubbo
+2023-09-21 16:03:20.254 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=dubbo-springboot-demo-provider.condition-router, group=dubbo, cnt=1
+2023-09-21 16:03:20.434 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] dubbo-springboot-demo-provider.MESHAPPRULE+dubbo
+2023-09-21 16:03:20.435 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=dubbo-springboot-demo-provider.MESHAPPRULE, group=dubbo, cnt=1
+2023-09-21 16:03:20.436 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] dubbo-springboot-demo-provider.tag-router+dubbo
+2023-09-21 16:03:20.436 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=dubbo-springboot-demo-provider.tag-router, group=dubbo, cnt=1
+2023-09-21 16:03:20.447 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.service.InvokeUserService::.configurators+dubbo
+2023-09-21 16:03:20.447 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.service.InvokeUserService::.configurators, group=dubbo, cnt=1
+2023-09-21 16:03:20.660 INFO [Dubbo-framework-mapping-refreshing-scheduler-thread-1:c.a.n.c.c.u.JvmUtil] isMultiInstance:false
+2023-09-21 16:03:20.660 INFO [Dubbo-framework-mapping-refreshing-scheduler-thread-1:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.service.InvokeUserService+mapping
+2023-09-21 16:03:20.661 INFO [Dubbo-framework-mapping-refreshing-scheduler-thread-1:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.service.InvokeUserService, group=mapping, cnt=1
+2023-09-21 16:03:20.727 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.service.InvokeUserInterfaceInfoService::.condition-router+dubbo
+2023-09-21 16:03:20.728 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.service.InvokeUserInterfaceInfoService::.condition-router, group=dubbo, cnt=1
+2023-09-21 16:03:20.888 INFO [com.alibaba.nacos.client.remote.worker:c.a.n.c.c.i.ClientWorker] [02f31f4f-fac7-4c74-9ffe-e424621665ba_config-0] Connected,notify listen context...
+2023-09-21 16:03:20.893 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.service.InvokeUserInterfaceInfoService::.configurators+dubbo
+2023-09-21 16:03:20.896 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.service.InvokeUserInterfaceInfoService::.configurators, group=dubbo, cnt=1
+2023-09-21 16:03:21.176 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.service.InvokeInterfaceInfoService::.condition-router+dubbo
+2023-09-21 16:03:21.176 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.service.InvokeInterfaceInfoService::.condition-router, group=dubbo, cnt=1
+2023-09-21 16:03:21.285 INFO [Dubbo-framework-mapping-refreshing-scheduler-thread-2:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.service.InvokeUserInterfaceInfoService+mapping
+2023-09-21 16:03:21.286 INFO [Dubbo-framework-mapping-refreshing-scheduler-thread-2:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.service.InvokeUserInterfaceInfoService, group=mapping, cnt=1
+2023-09-21 16:03:21.510 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.service.InvokeInterfaceInfoService::.configurators+dubbo
+2023-09-21 16:03:21.510 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.service.InvokeInterfaceInfoService::.configurators, group=dubbo, cnt=1
+2023-09-21 16:03:21.721 INFO [Dubbo-framework-mapping-refreshing-scheduler-thread-3:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.service.InvokeInterfaceInfoService+mapping
+2023-09-21 16:03:21.721 INFO [Dubbo-framework-mapping-refreshing-scheduler-thread-3:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.service.InvokeInterfaceInfoService, group=mapping, cnt=1
+2023-09-21 16:03:21.823 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] org.apache.dubbo.metadata.MetadataService:1.0.0:dubbo-springboot-demo-provider.configurators+dubbo
+2023-09-21 16:03:21.823 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=org.apache.dubbo.metadata.MetadataService:1.0.0:dubbo-springboot-demo-provider.configurators, group=dubbo, cnt=1
+2023-09-21 16:03:51.716 INFO [Thread-2:c.a.n.c.a.r.i.CredentialWatcher] [null] CredentialWatcher is stopped
+2023-09-21 16:03:51.717 INFO [Thread-2:c.a.n.c.a.r.i.CredentialService] [null] CredentialService is freed
+2023-09-21 16:03:53.743 INFO [Thread-2:c.a.n.c.c.i.ClientWorker] com.alibaba.nacos.client.config.impl.ClientWorker do shutdown begin
+2023-09-21 16:03:53.743 INFO [Thread-2:c.a.n.c.c.i.ClientWorker] Trying to shutdown transport client com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient@18d11a6f
+2023-09-21 16:03:53.743 INFO [Thread-2:c.a.n.c.c.i.ClientWorker] Trying to shutdown rpc client 45a7442f-1195-4cde-8505-fab9e482f8c6_config-0
+2023-09-21 16:03:53.743 INFO [Thread-2:c.a.n.c.c.i.ClientWorker] Remove rpc client 45a7442f-1195-4cde-8505-fab9e482f8c6_config-0
+2023-09-21 16:03:53.743 INFO [Thread-2:c.a.n.c.c.i.ClientWorker] Shutdown executor java.util.concurrent.ScheduledThreadPoolExecutor@37f89283[Running, pool size = 10, active threads = 1, queued tasks = 1, completed tasks = 8]
+2023-09-21 16:03:53.745 INFO [Thread-2:c.a.n.c.c.i.ClientWorker] com.alibaba.nacos.client.config.impl.ClientWorker do shutdown stop
+2023-09-21 16:08:13.497 INFO [restartedMain:c.a.n.c.u.ParamUtil] [settings] [req-serv] nacos-server port:8848
+2023-09-21 16:08:13.500 INFO [restartedMain:c.a.n.c.u.ParamUtil] [settings] [http-client] connect timeout:1000
+2023-09-21 16:08:13.502 INFO [restartedMain:c.a.n.c.u.ParamUtil] PER_TASK_CONFIG_SIZE: 3000.0
+2023-09-21 16:08:13.542 INFO [restartedMain:c.a.n.c.a.r.i.CredentialWatcher] null No credential found
+2023-09-21 16:08:13.551 INFO [restartedMain:c.a.n.c.c.i.LocalConfigInfoProcessor] LOCAL_SNAPSHOT_PATH:myhome\nacos\config
+2023-09-21 16:08:16.026 INFO [com.alibaba.nacos.client.remote.worker:c.a.n.c.c.i.ClientWorker] [659bb4e5-9fee-4a6a-8b57-5296bf03f7c5_config-0] Connected,notify listen context...
+2023-09-21 16:08:16.070 INFO [restartedMain:c.a.n.c.c.i.Limiter] limitTime:5.0
+2023-09-21 16:08:21.200 INFO [restartedMain:c.a.n.c.c.i.CacheData] nacos.cache.data.init.snapshot = true 
+2023-09-21 16:08:21.200 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] dubbo-springboot-demo-provider.migration+DUBBO_SERVICEDISCOVERY_MIGRATION
+2023-09-21 16:08:21.208 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=dubbo-springboot-demo-provider.migration, group=DUBBO_SERVICEDISCOVERY_MIGRATION, cnt=1
+2023-09-21 16:08:21.249 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] dubbo-springboot-demo-provider.configurators+dubbo
+2023-09-21 16:08:21.249 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=dubbo-springboot-demo-provider.configurators, group=dubbo, cnt=1
+2023-09-21 16:08:21.268 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.service.InvokeUserService::.condition-router+dubbo
+2023-09-21 16:08:21.269 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.service.InvokeUserService::.condition-router, group=dubbo, cnt=1
+2023-09-21 16:08:21.274 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] dubbo-springboot-demo-provider.condition-router+dubbo
+2023-09-21 16:08:21.274 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=dubbo-springboot-demo-provider.condition-router, group=dubbo, cnt=1
+2023-09-21 16:08:21.453 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] dubbo-springboot-demo-provider.MESHAPPRULE+dubbo
+2023-09-21 16:08:21.453 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=dubbo-springboot-demo-provider.MESHAPPRULE, group=dubbo, cnt=1
+2023-09-21 16:08:21.454 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] dubbo-springboot-demo-provider.tag-router+dubbo
+2023-09-21 16:08:21.454 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=dubbo-springboot-demo-provider.tag-router, group=dubbo, cnt=1
+2023-09-21 16:08:21.462 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.service.InvokeUserService::.configurators+dubbo
+2023-09-21 16:08:21.462 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.service.InvokeUserService::.configurators, group=dubbo, cnt=1
+2023-09-21 16:08:21.671 INFO [Dubbo-framework-mapping-refreshing-scheduler-thread-1:c.a.n.c.c.u.JvmUtil] isMultiInstance:false
+2023-09-21 16:08:21.672 INFO [Dubbo-framework-mapping-refreshing-scheduler-thread-1:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.service.InvokeUserService+mapping
+2023-09-21 16:08:21.672 INFO [Dubbo-framework-mapping-refreshing-scheduler-thread-1:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.service.InvokeUserService, group=mapping, cnt=1
+2023-09-21 16:08:21.905 INFO [com.alibaba.nacos.client.remote.worker:c.a.n.c.c.i.ClientWorker] [16828c02-54d9-4745-aba9-0cb6ef2e079b_config-0] Connected,notify listen context...
+2023-09-21 16:08:21.999 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.service.InvokeUserInterfaceInfoService::.condition-router+dubbo
+2023-09-21 16:08:21.999 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.service.InvokeUserInterfaceInfoService::.condition-router, group=dubbo, cnt=1
+2023-09-21 16:08:22.016 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.service.InvokeUserInterfaceInfoService::.configurators+dubbo
+2023-09-21 16:08:22.017 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.service.InvokeUserInterfaceInfoService::.configurators, group=dubbo, cnt=1
+2023-09-21 16:08:22.222 INFO [Dubbo-framework-mapping-refreshing-scheduler-thread-2:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.service.InvokeUserInterfaceInfoService+mapping
+2023-09-21 16:08:22.222 INFO [Dubbo-framework-mapping-refreshing-scheduler-thread-2:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.service.InvokeUserInterfaceInfoService, group=mapping, cnt=1
+2023-09-21 16:08:22.231 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.service.InvokeInterfaceInfoService::.condition-router+dubbo
+2023-09-21 16:08:22.232 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.service.InvokeInterfaceInfoService::.condition-router, group=dubbo, cnt=1
+2023-09-21 16:08:22.250 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.service.InvokeInterfaceInfoService::.configurators+dubbo
+2023-09-21 16:08:22.250 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.service.InvokeInterfaceInfoService::.configurators, group=dubbo, cnt=1
+2023-09-21 16:08:22.454 INFO [Dubbo-framework-mapping-refreshing-scheduler-thread-3:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.service.InvokeInterfaceInfoService+mapping
+2023-09-21 16:08:22.455 INFO [Dubbo-framework-mapping-refreshing-scheduler-thread-3:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.service.InvokeInterfaceInfoService, group=mapping, cnt=1
+2023-09-21 16:08:22.535 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] org.apache.dubbo.metadata.MetadataService:1.0.0:dubbo-springboot-demo-provider.configurators+dubbo
+2023-09-21 16:08:22.535 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=org.apache.dubbo.metadata.MetadataService:1.0.0:dubbo-springboot-demo-provider.configurators, group=dubbo, cnt=1
+2023-09-21 16:09:52.288 INFO [Thread-2:c.a.n.c.a.r.i.CredentialWatcher] [null] CredentialWatcher is stopped
+2023-09-21 16:09:52.289 INFO [Thread-2:c.a.n.c.a.r.i.CredentialService] [null] CredentialService is freed
+2023-09-21 16:09:53.568 INFO [com.alibaba.nacos.client.Worker:c.a.n.c.a.r.i.CredentialWatcher] null No credential found
+2023-09-21 16:09:54.317 INFO [Thread-2:c.a.n.c.c.i.ClientWorker] com.alibaba.nacos.client.config.impl.ClientWorker do shutdown begin
+2023-09-21 16:09:54.317 INFO [Thread-2:c.a.n.c.a.r.i.CredentialWatcher] [null] CredentialWatcher is stopped
+2023-09-21 16:09:54.317 INFO [Thread-2:c.a.n.c.a.r.i.CredentialService] [null] CredentialService is freed
+2023-09-21 16:09:54.317 INFO [Thread-2:c.a.n.c.c.i.ClientWorker] Trying to shutdown transport client com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient@71d2924c
+2023-09-21 16:09:54.317 INFO [Thread-2:c.a.n.c.c.i.ClientWorker] Trying to shutdown rpc client 659bb4e5-9fee-4a6a-8b57-5296bf03f7c5_config-0
+2023-09-21 16:09:54.318 INFO [Thread-2:c.a.n.c.c.i.ClientWorker] Remove rpc client 659bb4e5-9fee-4a6a-8b57-5296bf03f7c5_config-0
+2023-09-21 16:09:54.318 INFO [Thread-2:c.a.n.c.c.i.ClientWorker] Shutdown executor java.util.concurrent.ScheduledThreadPoolExecutor@2a3631d7[Running, pool size = 16, active threads = 1, queued tasks = 1, completed tasks = 21]
+2023-09-21 16:09:54.318 INFO [Thread-2:c.a.n.c.c.i.ClientWorker] com.alibaba.nacos.client.config.impl.ClientWorker do shutdown stop
+2023-09-21 16:30:10.778 INFO [restartedMain:c.a.n.c.u.ParamUtil] [settings] [req-serv] nacos-server port:8848
+2023-09-21 16:30:10.780 INFO [restartedMain:c.a.n.c.u.ParamUtil] [settings] [http-client] connect timeout:1000
+2023-09-21 16:30:10.781 INFO [restartedMain:c.a.n.c.u.ParamUtil] PER_TASK_CONFIG_SIZE: 3000.0
+2023-09-21 16:30:10.812 INFO [restartedMain:c.a.n.c.a.r.i.CredentialWatcher] null No credential found
+2023-09-21 16:30:10.818 INFO [restartedMain:c.a.n.c.c.i.LocalConfigInfoProcessor] LOCAL_SNAPSHOT_PATH:myhome\nacos\config
+2023-09-21 16:30:12.850 INFO [com.alibaba.nacos.client.remote.worker:c.a.n.c.c.i.ClientWorker] [b0f30cee-4792-436c-be68-0e5a68d238e0_config-0] Connected,notify listen context...
+2023-09-21 16:30:12.891 INFO [restartedMain:c.a.n.c.c.i.Limiter] limitTime:5.0
+2023-09-21 16:30:16.938 INFO [restartedMain:c.a.n.c.c.i.CacheData] nacos.cache.data.init.snapshot = true 
+2023-09-21 16:30:16.938 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] dubbo-springboot-demo-provider.migration+DUBBO_SERVICEDISCOVERY_MIGRATION
+2023-09-21 16:30:16.946 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=dubbo-springboot-demo-provider.migration, group=DUBBO_SERVICEDISCOVERY_MIGRATION, cnt=1
+2023-09-21 16:30:16.982 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] dubbo-springboot-demo-provider.configurators+dubbo
+2023-09-21 16:30:16.982 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=dubbo-springboot-demo-provider.configurators, group=dubbo, cnt=1
+2023-09-21 16:30:16.999 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.service.InvokeUserService::.condition-router+dubbo
+2023-09-21 16:30:16.999 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.service.InvokeUserService::.condition-router, group=dubbo, cnt=1
+2023-09-21 16:30:17.004 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] dubbo-springboot-demo-provider.condition-router+dubbo
+2023-09-21 16:30:17.004 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=dubbo-springboot-demo-provider.condition-router, group=dubbo, cnt=1
+2023-09-21 16:30:17.146 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] dubbo-springboot-demo-provider.MESHAPPRULE+dubbo
+2023-09-21 16:30:17.146 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=dubbo-springboot-demo-provider.MESHAPPRULE, group=dubbo, cnt=1
+2023-09-21 16:30:17.147 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] dubbo-springboot-demo-provider.tag-router+dubbo
+2023-09-21 16:30:17.147 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=dubbo-springboot-demo-provider.tag-router, group=dubbo, cnt=1
+2023-09-21 16:30:17.153 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.service.InvokeUserService::.configurators+dubbo
+2023-09-21 16:30:17.154 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.service.InvokeUserService::.configurators, group=dubbo, cnt=1
+2023-09-21 16:30:17.370 INFO [Dubbo-framework-mapping-refreshing-scheduler-thread-1:c.a.n.c.c.u.JvmUtil] isMultiInstance:false
+2023-09-21 16:30:17.370 INFO [Dubbo-framework-mapping-refreshing-scheduler-thread-1:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.service.InvokeUserService+mapping
+2023-09-21 16:30:17.370 INFO [Dubbo-framework-mapping-refreshing-scheduler-thread-1:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.service.InvokeUserService, group=mapping, cnt=1
+2023-09-21 16:30:17.559 INFO [com.alibaba.nacos.client.remote.worker:c.a.n.c.c.i.ClientWorker] [d9e44b38-1773-401f-93da-f288ffefba06_config-0] Connected,notify listen context...
+2023-09-21 16:30:17.621 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.service.InvokeUserInterfaceInfoService::.condition-router+dubbo
+2023-09-21 16:30:17.621 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.service.InvokeUserInterfaceInfoService::.condition-router, group=dubbo, cnt=1
+2023-09-21 16:30:17.639 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.service.InvokeUserInterfaceInfoService::.configurators+dubbo
+2023-09-21 16:30:17.639 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.service.InvokeUserInterfaceInfoService::.configurators, group=dubbo, cnt=1
+2023-09-21 16:30:17.877 INFO [Dubbo-framework-mapping-refreshing-scheduler-thread-2:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.service.InvokeUserInterfaceInfoService+mapping
+2023-09-21 16:30:17.878 INFO [Dubbo-framework-mapping-refreshing-scheduler-thread-2:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.service.InvokeUserInterfaceInfoService, group=mapping, cnt=1
+2023-09-21 16:30:17.884 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.service.InvokeInterfaceInfoService::.condition-router+dubbo
+2023-09-21 16:30:17.884 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.service.InvokeInterfaceInfoService::.condition-router, group=dubbo, cnt=1
+2023-09-21 16:30:17.950 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.service.InvokeInterfaceInfoService::.configurators+dubbo
+2023-09-21 16:30:17.950 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.service.InvokeInterfaceInfoService::.configurators, group=dubbo, cnt=1
+2023-09-21 16:30:18.173 INFO [Dubbo-framework-mapping-refreshing-scheduler-thread-3:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.service.InvokeInterfaceInfoService+mapping
+2023-09-21 16:30:18.173 INFO [Dubbo-framework-mapping-refreshing-scheduler-thread-3:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.service.InvokeInterfaceInfoService, group=mapping, cnt=1
+2023-09-21 16:30:18.273 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] org.apache.dubbo.metadata.MetadataService:1.0.0:dubbo-springboot-demo-provider.configurators+dubbo
+2023-09-21 16:30:18.273 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=org.apache.dubbo.metadata.MetadataService:1.0.0:dubbo-springboot-demo-provider.configurators, group=dubbo, cnt=1
+2023-09-21 16:34:51.961 INFO [restartedMain:c.a.n.c.u.ParamUtil] [settings] [req-serv] nacos-server port:8848
+2023-09-21 16:34:51.962 INFO [restartedMain:c.a.n.c.u.ParamUtil] [settings] [http-client] connect timeout:1000
+2023-09-21 16:34:51.963 INFO [restartedMain:c.a.n.c.u.ParamUtil] PER_TASK_CONFIG_SIZE: 3000.0
+2023-09-21 16:34:51.990 INFO [restartedMain:c.a.n.c.a.r.i.CredentialWatcher] null No credential found
+2023-09-21 16:34:51.997 INFO [restartedMain:c.a.n.c.c.i.LocalConfigInfoProcessor] LOCAL_SNAPSHOT_PATH:myhome\nacos\config
+2023-09-21 16:34:54.294 INFO [com.alibaba.nacos.client.remote.worker:c.a.n.c.c.i.ClientWorker] [f5bee0ef-31e1-42d0-8da4-bb75b7ca8de6_config-0] Connected,notify listen context...
+2023-09-21 16:34:54.337 INFO [restartedMain:c.a.n.c.c.i.Limiter] limitTime:5.0
+2023-09-21 16:34:58.586 INFO [restartedMain:c.a.n.c.c.i.CacheData] nacos.cache.data.init.snapshot = true 
+2023-09-21 16:34:58.586 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] dubbo-springboot-demo-provider.migration+DUBBO_SERVICEDISCOVERY_MIGRATION
+2023-09-21 16:34:58.594 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=dubbo-springboot-demo-provider.migration, group=DUBBO_SERVICEDISCOVERY_MIGRATION, cnt=1
+2023-09-21 16:34:58.633 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] dubbo-springboot-demo-provider.configurators+dubbo
+2023-09-21 16:34:58.633 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=dubbo-springboot-demo-provider.configurators, group=dubbo, cnt=1
+2023-09-21 16:34:58.650 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.service.InvokeUserService::.condition-router+dubbo
+2023-09-21 16:34:58.650 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.service.InvokeUserService::.condition-router, group=dubbo, cnt=1
+2023-09-21 16:34:58.655 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] dubbo-springboot-demo-provider.condition-router+dubbo
+2023-09-21 16:34:58.656 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=dubbo-springboot-demo-provider.condition-router, group=dubbo, cnt=1
+2023-09-21 16:34:58.813 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] dubbo-springboot-demo-provider.MESHAPPRULE+dubbo
+2023-09-21 16:34:58.814 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=dubbo-springboot-demo-provider.MESHAPPRULE, group=dubbo, cnt=1
+2023-09-21 16:34:58.815 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] dubbo-springboot-demo-provider.tag-router+dubbo
+2023-09-21 16:34:58.815 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=dubbo-springboot-demo-provider.tag-router, group=dubbo, cnt=1
+2023-09-21 16:34:58.825 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.service.InvokeUserService::.configurators+dubbo
+2023-09-21 16:34:58.825 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.service.InvokeUserService::.configurators, group=dubbo, cnt=1
+2023-09-21 16:34:59.039 INFO [Dubbo-framework-mapping-refreshing-scheduler-thread-1:c.a.n.c.c.u.JvmUtil] isMultiInstance:false
+2023-09-21 16:34:59.039 INFO [Dubbo-framework-mapping-refreshing-scheduler-thread-1:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.service.InvokeUserService+mapping
+2023-09-21 16:34:59.039 INFO [Dubbo-framework-mapping-refreshing-scheduler-thread-1:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.service.InvokeUserService, group=mapping, cnt=1
+2023-09-21 16:34:59.283 INFO [com.alibaba.nacos.client.remote.worker:c.a.n.c.c.i.ClientWorker] [e939c483-9445-4717-b1d7-b1ae68cf2368_config-0] Connected,notify listen context...
+2023-09-21 16:34:59.395 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.service.InvokeUserInterfaceInfoService::.condition-router+dubbo
+2023-09-21 16:34:59.395 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.service.InvokeUserInterfaceInfoService::.condition-router, group=dubbo, cnt=1
+2023-09-21 16:34:59.413 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.service.InvokeUserInterfaceInfoService::.configurators+dubbo
+2023-09-21 16:34:59.413 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.service.InvokeUserInterfaceInfoService::.configurators, group=dubbo, cnt=1
+2023-09-21 16:34:59.618 INFO [Dubbo-framework-mapping-refreshing-scheduler-thread-2:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.service.InvokeUserInterfaceInfoService+mapping
+2023-09-21 16:34:59.618 INFO [Dubbo-framework-mapping-refreshing-scheduler-thread-2:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.service.InvokeUserInterfaceInfoService, group=mapping, cnt=1
+2023-09-21 16:34:59.626 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.service.InvokeInterfaceInfoService::.condition-router+dubbo
+2023-09-21 16:34:59.626 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.service.InvokeInterfaceInfoService::.condition-router, group=dubbo, cnt=1
+2023-09-21 16:34:59.642 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.service.InvokeInterfaceInfoService::.configurators+dubbo
+2023-09-21 16:34:59.642 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.service.InvokeInterfaceInfoService::.configurators, group=dubbo, cnt=1
+2023-09-21 16:34:59.846 INFO [Dubbo-framework-mapping-refreshing-scheduler-thread-3:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.service.InvokeInterfaceInfoService+mapping
+2023-09-21 16:34:59.846 INFO [Dubbo-framework-mapping-refreshing-scheduler-thread-3:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.service.InvokeInterfaceInfoService, group=mapping, cnt=1
+2023-09-21 16:34:59.928 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] org.apache.dubbo.metadata.MetadataService:1.0.0:dubbo-springboot-demo-provider.configurators+dubbo
+2023-09-21 16:34:59.928 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=org.apache.dubbo.metadata.MetadataService:1.0.0:dubbo-springboot-demo-provider.configurators, group=dubbo, cnt=1
+2023-09-21 16:35:26.121 INFO [Thread-2:c.a.n.c.a.r.i.CredentialWatcher] [null] CredentialWatcher is stopped
+2023-09-21 16:35:26.121 INFO [Thread-2:c.a.n.c.a.r.i.CredentialService] [null] CredentialService is freed
+2023-09-21 16:35:27.001 INFO [com.alibaba.nacos.client.Worker:c.a.n.c.a.r.i.CredentialWatcher] null No credential found
+2023-09-21 16:35:28.158 INFO [Thread-2:c.a.n.c.c.i.ClientWorker] com.alibaba.nacos.client.config.impl.ClientWorker do shutdown begin
+2023-09-21 16:35:28.158 INFO [Thread-2:c.a.n.c.a.r.i.CredentialWatcher] [null] CredentialWatcher is stopped
+2023-09-21 16:35:28.159 INFO [Thread-2:c.a.n.c.a.r.i.CredentialService] [null] CredentialService is freed
+2023-09-21 16:35:28.159 INFO [Thread-2:c.a.n.c.c.i.ClientWorker] Trying to shutdown transport client com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient@345d7c3c
+2023-09-21 16:35:28.159 INFO [Thread-2:c.a.n.c.c.i.ClientWorker] Trying to shutdown rpc client f5bee0ef-31e1-42d0-8da4-bb75b7ca8de6_config-0
+2023-09-21 16:35:28.159 INFO [Thread-2:c.a.n.c.c.i.ClientWorker] Remove rpc client f5bee0ef-31e1-42d0-8da4-bb75b7ca8de6_config-0
+2023-09-21 16:35:28.159 INFO [Thread-2:c.a.n.c.c.i.ClientWorker] Shutdown executor java.util.concurrent.ScheduledThreadPoolExecutor@7cc85720[Running, pool size = 10, active threads = 1, queued tasks = 1, completed tasks = 8]
+2023-09-21 16:35:28.160 INFO [Thread-2:c.a.n.c.c.i.ClientWorker] com.alibaba.nacos.client.config.impl.ClientWorker do shutdown stop
+2023-09-21 17:01:44.654 INFO [restartedMain:c.a.n.c.u.ParamUtil] [settings] [req-serv] nacos-server port:8848
+2023-09-21 17:01:44.656 INFO [restartedMain:c.a.n.c.u.ParamUtil] [settings] [http-client] connect timeout:1000
+2023-09-21 17:01:44.660 INFO [restartedMain:c.a.n.c.u.ParamUtil] PER_TASK_CONFIG_SIZE: 3000.0
+2023-09-21 17:01:44.718 INFO [restartedMain:c.a.n.c.a.r.i.CredentialWatcher] null No credential found
+2023-09-21 17:01:44.729 INFO [restartedMain:c.a.n.c.c.i.LocalConfigInfoProcessor] LOCAL_SNAPSHOT_PATH:myhome\nacos\config
+2023-09-21 17:01:47.629 INFO [com.alibaba.nacos.client.remote.worker:c.a.n.c.c.i.ClientWorker] [664813ae-d32f-4b31-aa6b-c6f59107e741_config-0] Connected,notify listen context...
+2023-09-21 17:01:47.670 INFO [restartedMain:c.a.n.c.c.i.Limiter] limitTime:5.0
+2023-09-21 17:01:51.904 INFO [restartedMain:c.a.n.c.c.i.CacheData] nacos.cache.data.init.snapshot = true 
+2023-09-21 17:01:51.905 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] dubbo-springboot-demo-provider.migration+DUBBO_SERVICEDISCOVERY_MIGRATION
+2023-09-21 17:01:51.913 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=dubbo-springboot-demo-provider.migration, group=DUBBO_SERVICEDISCOVERY_MIGRATION, cnt=1
+2023-09-21 17:01:51.953 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] dubbo-springboot-demo-provider.configurators+dubbo
+2023-09-21 17:01:51.953 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=dubbo-springboot-demo-provider.configurators, group=dubbo, cnt=1
+2023-09-21 17:01:51.972 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.service.InvokeUserService::.condition-router+dubbo
+2023-09-21 17:01:51.972 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.service.InvokeUserService::.condition-router, group=dubbo, cnt=1
+2023-09-21 17:01:51.977 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] dubbo-springboot-demo-provider.condition-router+dubbo
+2023-09-21 17:01:51.977 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=dubbo-springboot-demo-provider.condition-router, group=dubbo, cnt=1
+2023-09-21 17:01:52.135 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] dubbo-springboot-demo-provider.MESHAPPRULE+dubbo
+2023-09-21 17:01:52.135 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=dubbo-springboot-demo-provider.MESHAPPRULE, group=dubbo, cnt=1
+2023-09-21 17:01:52.136 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] dubbo-springboot-demo-provider.tag-router+dubbo
+2023-09-21 17:01:52.136 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=dubbo-springboot-demo-provider.tag-router, group=dubbo, cnt=1
+2023-09-21 17:01:52.146 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.service.InvokeUserService::.configurators+dubbo
+2023-09-21 17:01:52.146 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.service.InvokeUserService::.configurators, group=dubbo, cnt=1
+2023-09-21 17:01:52.362 INFO [Dubbo-framework-mapping-refreshing-scheduler-thread-1:c.a.n.c.c.u.JvmUtil] isMultiInstance:false
+2023-09-21 17:01:52.362 INFO [Dubbo-framework-mapping-refreshing-scheduler-thread-1:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.service.InvokeUserService+mapping
+2023-09-21 17:01:52.363 INFO [Dubbo-framework-mapping-refreshing-scheduler-thread-1:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.service.InvokeUserService, group=mapping, cnt=1
+2023-09-21 17:01:52.429 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.service.InvokeUserInterfaceInfoService::.condition-router+dubbo
+2023-09-21 17:01:52.430 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.service.InvokeUserInterfaceInfoService::.condition-router, group=dubbo, cnt=1
+2023-09-21 17:01:52.452 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.service.InvokeUserInterfaceInfoService::.configurators+dubbo
+2023-09-21 17:01:52.452 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.service.InvokeUserInterfaceInfoService::.configurators, group=dubbo, cnt=1
+2023-09-21 17:01:52.478 INFO [com.alibaba.nacos.client.remote.worker:c.a.n.c.c.i.ClientWorker] [43d09d62-5463-4a40-9708-96f6c5496e7e_config-0] Connected,notify listen context...
+2023-09-21 17:01:52.660 INFO [Dubbo-framework-mapping-refreshing-scheduler-thread-2:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.service.InvokeUserInterfaceInfoService+mapping
+2023-09-21 17:01:52.660 INFO [Dubbo-framework-mapping-refreshing-scheduler-thread-2:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.service.InvokeUserInterfaceInfoService, group=mapping, cnt=1
+2023-09-21 17:01:52.672 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.service.InvokeInterfaceInfoService::.condition-router+dubbo
+2023-09-21 17:01:52.672 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.service.InvokeInterfaceInfoService::.condition-router, group=dubbo, cnt=1
+2023-09-21 17:01:52.691 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.service.InvokeInterfaceInfoService::.configurators+dubbo
+2023-09-21 17:01:52.691 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.service.InvokeInterfaceInfoService::.configurators, group=dubbo, cnt=1
+2023-09-21 17:01:53.478 INFO [Dubbo-framework-mapping-refreshing-scheduler-thread-3:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] com.wty.project.service.InvokeInterfaceInfoService+mapping
+2023-09-21 17:01:53.479 INFO [Dubbo-framework-mapping-refreshing-scheduler-thread-3:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=com.wty.project.service.InvokeInterfaceInfoService, group=mapping, cnt=1
+2023-09-21 17:01:53.745 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-localhost_8848] [subscribe] org.apache.dubbo.metadata.MetadataService:1.0.0:dubbo-springboot-demo-provider.configurators+dubbo
+2023-09-21 17:01:53.745 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=org.apache.dubbo.metadata.MetadataService:1.0.0:dubbo-springboot-demo-provider.configurators, group=dubbo, cnt=1
+2023-09-21 17:41:49.552 ERROR [com.alibaba.nacos.client.Worker:c.a.n.c.c.i.ClientWorker] Async listen config change error 
+com.alibaba.nacos.api.exception.NacosException: Client not connected, current status:UNHEALTHY
+	at com.alibaba.nacos.common.remote.client.RpcClient.request(RpcClient.java:651) ~[nacos-client-2.1.0.jar:na]
+	at com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient.requestProxy(ClientWorker.java:1005) [nacos-client-2.1.0.jar:na]
+	at com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient.requestProxy(ClientWorker.java:986) [nacos-client-2.1.0.jar:na]
+	at com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient.executeConfigListen(ClientWorker.java:777) [nacos-client-2.1.0.jar:na]
+	at com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient.lambda$startInternal$2(ClientWorker.java:695) [nacos-client-2.1.0.jar:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[na:1.8.0_361]
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266) ~[na:1.8.0_361]
+	at java.util.concurrent.FutureTask.run(FutureTask.java) ~[na:1.8.0_361]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) ~[na:1.8.0_361]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) ~[na:1.8.0_361]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[na:1.8.0_361]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[na:1.8.0_361]
+	at java.lang.Thread.run(Thread.java:750) ~[na:1.8.0_361]
+2023-09-21 17:42:03.922 INFO [DubboShutdownHook:c.a.n.c.a.r.i.CredentialWatcher] [null] CredentialWatcher is stopped
+2023-09-21 17:42:03.923 INFO [DubboShutdownHook:c.a.n.c.a.r.i.CredentialService] [null] CredentialService is freed
+2023-09-21 17:42:05.177 INFO [com.alibaba.nacos.client.Worker:c.a.n.c.a.r.i.CredentialWatcher] null No credential found
+2023-09-21 17:42:06.945 INFO [DubboShutdownHook:c.a.n.c.c.i.ClientWorker] com.alibaba.nacos.client.config.impl.ClientWorker do shutdown begin
+2023-09-21 17:42:06.946 INFO [DubboShutdownHook:c.a.n.c.a.r.i.CredentialWatcher] [null] CredentialWatcher is stopped
+2023-09-21 17:42:06.946 INFO [DubboShutdownHook:c.a.n.c.a.r.i.CredentialService] [null] CredentialService is freed
+2023-09-21 17:42:06.946 INFO [DubboShutdownHook:c.a.n.c.c.i.ClientWorker] Trying to shutdown transport client com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient@36349cc0
+2023-09-21 17:42:06.946 INFO [DubboShutdownHook:c.a.n.c.c.i.ClientWorker] Trying to shutdown rpc client 664813ae-d32f-4b31-aa6b-c6f59107e741_config-0
+2023-09-21 17:42:06.947 INFO [DubboShutdownHook:c.a.n.c.c.i.ClientWorker] Remove rpc client 664813ae-d32f-4b31-aa6b-c6f59107e741_config-0
+2023-09-21 17:42:06.947 INFO [DubboShutdownHook:c.a.n.c.c.i.ClientWorker] Shutdown executor java.util.concurrent.ScheduledThreadPoolExecutor@5f68f80d[Running, pool size = 16, active threads = 1, queued tasks = 1, completed tasks = 485]
+2023-09-21 17:42:06.948 INFO [DubboShutdownHook:c.a.n.c.c.i.ClientWorker] com.alibaba.nacos.client.config.impl.ClientWorker do shutdown stop
+2023-09-21 17:42:07.200 INFO [com.alibaba.nacos.client.naming.security:c.a.n.c.a.r.i.CredentialWatcher] null No credential found
+2024-03-02 13:33:08.627 INFO [restartedMain:c.a.n.c.u.ParamUtil] [settings] [req-serv] nacos-server port:8848
+2024-03-02 13:33:08.628 INFO [restartedMain:c.a.n.c.u.ParamUtil] [settings] [http-client] connect timeout:1000
+2024-03-02 13:33:08.630 INFO [restartedMain:c.a.n.c.u.ParamUtil] PER_TASK_CONFIG_SIZE: 3000.0
+2024-03-02 13:33:08.665 INFO [restartedMain:c.a.n.c.a.r.i.CredentialWatcher] null No credential found
+2024-03-02 13:33:08.672 INFO [restartedMain:c.a.n.c.c.i.LocalConfigInfoProcessor] LOCAL_SNAPSHOT_PATH:myhome\nacos\config
+2024-03-02 13:33:21.617 INFO [restartedMain:c.a.n.c.c.i.Limiter] limitTime:5.0
+2024-03-02 13:33:21.923 WARN [restartedMain:c.a.n.c.c.NacosConfigService] [fixed-localhost_8848] [get-config] get from server error, dataId=dubbo.properties, group=dubbo, tenant=, msg=ErrCode:-401, ErrMsg:Client not connected, current status:STARTING
+2024-03-02 13:33:21.923 WARN [restartedMain:c.a.n.c.c.NacosConfigService] [fixed-localhost_8848] [get-config] get snapshot ok, dataId=dubbo.properties, group=dubbo, tenant=, config=
+2024-03-02 13:33:22.230 WARN [restartedMain:c.a.n.c.c.NacosConfigService] [fixed-localhost_8848] [get-config] get from server error, dataId=dubbo.properties, group=dubbo-springboot-demo-provider, tenant=, msg=ErrCode:-401, ErrMsg:Client not connected, current status:STARTING
+2024-03-02 13:33:22.230 WARN [restartedMain:c.a.n.c.c.NacosConfigService] [fixed-localhost_8848] [get-config] get snapshot ok, dataId=dubbo.properties, group=dubbo-springboot-demo-provider, tenant=, config=
+2024-03-02 13:36:19.210 INFO [restartedMain:c.a.n.c.u.ParamUtil] [settings] [req-serv] nacos-server port:8848
+2024-03-02 13:36:19.211 INFO [restartedMain:c.a.n.c.u.ParamUtil] [settings] [http-client] connect timeout:1000
+2024-03-02 13:36:19.213 INFO [restartedMain:c.a.n.c.u.ParamUtil] PER_TASK_CONFIG_SIZE: 3000.0
+2024-03-02 13:36:19.238 INFO [restartedMain:c.a.n.c.a.r.i.CredentialWatcher] null No credential found
+2024-03-02 13:36:19.244 INFO [restartedMain:c.a.n.c.c.i.LocalConfigInfoProcessor] LOCAL_SNAPSHOT_PATH:myhome\nacos\config
+2024-03-02 13:36:33.023 INFO [restartedMain:c.a.n.c.c.i.Limiter] limitTime:5.0
+2024-03-02 13:36:33.329 WARN [restartedMain:c.a.n.c.c.NacosConfigService] [fixed-localhost_8848] [get-config] get from server error, dataId=dubbo.properties, group=dubbo, tenant=, msg=ErrCode:-401, ErrMsg:Client not connected, current status:STARTING
+2024-03-02 13:36:33.330 WARN [restartedMain:c.a.n.c.c.NacosConfigService] [fixed-localhost_8848] [get-config] get snapshot ok, dataId=dubbo.properties, group=dubbo, tenant=, config=
+2024-03-02 13:36:33.639 WARN [restartedMain:c.a.n.c.c.NacosConfigService] [fixed-localhost_8848] [get-config] get from server error, dataId=dubbo.properties, group=dubbo-springboot-demo-provider, tenant=, msg=ErrCode:-401, ErrMsg:Client not connected, current status:STARTING
+2024-03-02 13:36:33.639 WARN [restartedMain:c.a.n.c.c.NacosConfigService] [fixed-localhost_8848] [get-config] get snapshot ok, dataId=dubbo.properties, group=dubbo-springboot-demo-provider, tenant=, config=
+2024-03-02 18:56:25.654 INFO [restartedMain:c.a.n.c.u.ParamUtil] [settings] [req-serv] nacos-server port:8848
+2024-03-02 18:56:25.656 INFO [restartedMain:c.a.n.c.u.ParamUtil] [settings] [http-client] connect timeout:1000
+2024-03-02 18:56:25.657 INFO [restartedMain:c.a.n.c.u.ParamUtil] PER_TASK_CONFIG_SIZE: 3000.0
+2024-03-02 18:56:25.693 INFO [restartedMain:c.a.n.c.a.r.i.CredentialWatcher] null No credential found
+2024-03-02 18:56:25.700 INFO [restartedMain:c.a.n.c.c.i.LocalConfigInfoProcessor] LOCAL_SNAPSHOT_PATH:myhome\nacos\config
+2024-03-02 18:56:36.031 INFO [com.alibaba.nacos.client.remote.worker:c.a.n.c.c.i.ClientWorker] [a6f32153-5d29-4aaa-9dbe-72877fc99c24_config-0] Connected,notify listen context...
+2024-03-02 18:56:36.084 INFO [restartedMain:c.a.n.c.c.i.Limiter] limitTime:5.0
+2024-03-02 18:58:17.915 INFO [restartedMain:c.a.n.c.u.ParamUtil] [settings] [req-serv] nacos-server port:8848
+2024-03-02 18:58:17.916 INFO [restartedMain:c.a.n.c.u.ParamUtil] [settings] [http-client] connect timeout:1000
+2024-03-02 18:58:17.918 INFO [restartedMain:c.a.n.c.u.ParamUtil] PER_TASK_CONFIG_SIZE: 3000.0
+2024-03-02 18:58:17.950 INFO [restartedMain:c.a.n.c.a.r.i.CredentialWatcher] null No credential found
+2024-03-02 18:58:17.955 INFO [restartedMain:c.a.n.c.c.i.LocalConfigInfoProcessor] LOCAL_SNAPSHOT_PATH:myhome\nacos\config
+2024-03-02 18:58:29.702 INFO [com.alibaba.nacos.client.remote.worker:c.a.n.c.c.i.ClientWorker] [d8040230-ac50-4dda-b0f7-46d3f7c12a76_config-0] Connected,notify listen context...
+2024-03-02 18:58:29.748 INFO [restartedMain:c.a.n.c.c.i.Limiter] limitTime:5.0

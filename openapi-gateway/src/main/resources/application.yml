@@ -1,0 +1,33 @@
+
+# 表示当的网关收到一个请求，如果请求路径以/api开头，那么网关会将请求转发的http://localhost:8080地址
+server:
+  port: 9004
+
+spring:
+  redis:
+    port: 6379
+    host: localhost
+    database: 1
+    timeout: 5000
+  cloud:
+    gateway:
+      routes:
+        - id: add_request_headers_route
+          uri: http://localhost:9003
+          predicates:
+            - Path=/api/**
+logging:
+  level:
+    org.springframework.cloud.gateway: trace
+
+dubbo:
+  application:
+    name: dubbo-consumer
+    qosEnable: true
+    qosPort: 33333
+  protocol:
+    name: dubbo
+    port: -1
+  registry:
+    id: nacos-registry
+    address: nacos://localhost:8848

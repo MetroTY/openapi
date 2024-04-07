@@ -1,0 +1,6 @@
+#Dubbo cache
+#Thu Sep 21 17:11:51 CST 2023
+com.wty.project.provider.DemoService=["dubbo-springboot-demo-provider"]
+com.wty.project.service.InvokeUserInterfaceInfoService=["dubbo-springboot-demo-provider"]
+com.wty.project.service.InvokeInterfaceInfoService=["dubbo-springboot-demo-provider"]
+com.wty.project.service.InvokeUserService=["dubbo-springboot-demo-provider"]
