@@ -6,31 +6,31 @@
 
 **登录页面：**
 
-![image-20240407171838330](http://wty.ty-metronome.fun/1.png)
+![image-20240407171838330](http://wty.metronome.fun/1.png)
 
 
 
 **首页欢迎页面：**
 
-![image-20240407171838330](http://wty.ty-metronome.fun/2.png)
+![image-20240407171838330](http://wty.metronome.fun/2.png)
 
 
 
 **接口信息页面：**
 
-![image-20240407171838330](http://wty.ty-metronome.fun/6.png)
+![image-20240407171838330](http://wty.metronome.fun/6.png)
 
 
 
 **具体接口页面：**
 
-![image-20240407171838330](http://wty.ty-metronome.fun/4.png)
+![image-20240407171838330](http://wty.metronome.fun/4.png)
 
 
 
 **页面发起请求：**
 
-![image-20240407171838330](http://wty.ty-metronome.fun/5.png)
+![image-20240407171838330](http://wty.metronome.fun/5.png)
 
 
 
